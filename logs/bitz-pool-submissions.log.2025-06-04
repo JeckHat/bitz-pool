@@ -1,0 +1,111 @@
+[2m2025-06-04T22:48:55.115605Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m Giving clients challenge: 7e25RObw0AifODF39gi1iqBwi3cND6jBkyv9NlDE+Ac=
+[2m2025-06-04T22:48:55.115667Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m With cutoff: 0
+[2m2025-06-04T22:48:55.304143Z[0m [31mERROR[0m [2msubmission_log[0m[2m:[0m Diff to low, skipping submission from 19555413-20f7-454d-abaa-a187a88cda43
+[2m2025-06-04T22:48:57.190298Z[0m [31mERROR[0m [2msubmission_log[0m[2m:[0m Diff to low, skipping submission from 19555413-20f7-454d-abaa-a187a88cda43
+[2m2025-06-04T22:48:57.928570Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m Giving clients challenge: 7e25RObw0AifODF39gi1iqBwi3cND6jBkyv9NlDE+Ac=
+[2m2025-06-04T22:48:57.928584Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m With cutoff: 0
+[2m2025-06-04T22:48:59.588543Z[0m [31mERROR[0m [2msubmission_log[0m[2m:[0m Diff to low, skipping submission from 19555413-20f7-454d-abaa-a187a88cda43
+[2m2025-06-04T22:48:59.588543Z[0m [31mERROR[0m [2msubmission_log[0m[2m:[0m Diff to low, skipping submission from 19555413-20f7-454d-abaa-a187a88cda43
+[2m2025-06-04T22:48:59.935346Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m Giving clients challenge: 7e25RObw0AifODF39gi1iqBwi3cND6jBkyv9NlDE+Ac=
+[2m2025-06-04T22:48:59.935353Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m With cutoff: 0
+[2m2025-06-04T22:49:01.639155Z[0m [31mERROR[0m [2msubmission_log[0m[2m:[0m Diff to low, skipping submission from 19555413-20f7-454d-abaa-a187a88cda43
+[2m2025-06-04T22:49:01.639169Z[0m [31mERROR[0m [2msubmission_log[0m[2m:[0m Diff to low, skipping submission from 19555413-20f7-454d-abaa-a187a88cda43
+[2m2025-06-04T22:49:01.639166Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 403fa510-7a07-4b9b-bd96-6f09d2f8e97e - Adding 19555413-20f7-454d-abaa-a187a88cda43 submission diff: 16 to epoch_hashes submissions.
+[2m2025-06-04T22:49:01.639238Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 403fa510-7a07-4b9b-bd96-6f09d2f8e97e - New best diff: 16
+[2m2025-06-04T22:49:01.639246Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 403fa510-7a07-4b9b-bd96-6f09d2f8e97e - Added 19555413-20f7-454d-abaa-a187a88cda43 submission diff: 16 to epoch_hashes submissions.
+[2m2025-06-04T22:49:06.364424Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m Giving clients challenge: YZz2On1ovmX5+G35nI72oMxdWwm+knHevJ7vQrmvZeU=
+[2m2025-06-04T22:49:06.364464Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m With cutoff: 55
+[2m2025-06-04T22:49:06.915864Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m ca4771ab-efd7-4887-9edf-85c4459b3480 - Adding 19555413-20f7-454d-abaa-a187a88cda43 submission diff: 12 to epoch_hashes submissions.
+[2m2025-06-04T22:49:06.915901Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m ca4771ab-efd7-4887-9edf-85c4459b3480 - New best diff: 12
+[2m2025-06-04T22:49:06.915906Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m ca4771ab-efd7-4887-9edf-85c4459b3480 - Added 19555413-20f7-454d-abaa-a187a88cda43 submission diff: 12 to epoch_hashes submissions.
+[2m2025-06-04T22:49:20.890012Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 31e636eb-f7d9-42ba-954c-8eacce6162c2 - New best diff: 13
+[2m2025-06-04T22:49:53.571632Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 6f2cf71c-5edd-4c6d-a612-456c796d9202 - New best diff: 19
+[2m2025-06-04T22:50:06.241151Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m Giving clients challenge: hXF1syRGePmVUxb3OKpEpGnDwXRRHgvkGwC/hG/oFck=
+[2m2025-06-04T22:50:06.241160Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m With cutoff: 56
+[2m2025-06-04T22:50:06.352855Z[0m [31mERROR[0m [2msubmission_log[0m[2m:[0m Diff to low, skipping submission from 19555413-20f7-454d-abaa-a187a88cda43
+[2m2025-06-04T22:50:06.492954Z[0m [31mERROR[0m [2msubmission_log[0m[2m:[0m Diff to low, skipping submission from 19555413-20f7-454d-abaa-a187a88cda43
+[2m2025-06-04T22:50:07.175813Z[0m [31mERROR[0m [2msubmission_log[0m[2m:[0m Diff to low, skipping submission from 19555413-20f7-454d-abaa-a187a88cda43
+[2m2025-06-04T22:50:07.642726Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 933ed000-f004-4415-83eb-58bd7fa02167 - Adding 19555413-20f7-454d-abaa-a187a88cda43 submission diff: 12 to epoch_hashes submissions.
+[2m2025-06-04T22:50:07.642775Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 933ed000-f004-4415-83eb-58bd7fa02167 - New best diff: 12
+[2m2025-06-04T22:50:07.642781Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 933ed000-f004-4415-83eb-58bd7fa02167 - Added 19555413-20f7-454d-abaa-a187a88cda43 submission diff: 12 to epoch_hashes submissions.
+[2m2025-06-04T22:50:49.991958Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m d0922bed-c99d-40f8-8f9f-aaec96167803 - New best diff: 14
+[2m2025-06-04T22:50:53.220830Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 1457813c-0660-4836-9395-37289cad1c9e - New best diff: 15
+[2m2025-06-04T22:51:00.697640Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 2ca032f9-f7f6-493d-b899-57d9cba4c248 - New best diff: 16
+[2m2025-06-04T22:51:06.558671Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m Giving clients challenge: SM/jIaGnPAfvbZ2Wjv/Xq0rIFrW6Sd4eU/UpuhKOtWo=
+[2m2025-06-04T22:51:06.558680Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m With cutoff: 57
+[2m2025-06-04T22:51:06.672370Z[0m [31mERROR[0m [2msubmission_log[0m[2m:[0m Diff to low, skipping submission from 19555413-20f7-454d-abaa-a187a88cda43
+[2m2025-06-04T22:51:08.216637Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 52326559-0dae-4f5f-9c65-150529000624 - Adding 19555413-20f7-454d-abaa-a187a88cda43 submission diff: 13 to epoch_hashes submissions.
+[2m2025-06-04T22:51:08.216686Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 52326559-0dae-4f5f-9c65-150529000624 - New best diff: 13
+[2m2025-06-04T22:51:08.216692Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 52326559-0dae-4f5f-9c65-150529000624 - Added 19555413-20f7-454d-abaa-a187a88cda43 submission diff: 13 to epoch_hashes submissions.
+[2m2025-06-04T22:51:35.287348Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 5f89ebb6-e7f7-4184-92dc-89c42d549dee - New best diff: 14
+[2m2025-06-04T22:52:08.042263Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m Giving clients challenge: 27P2lpBB/V9aH6LIoQj0kSJFEG9PcSUkjIRT4hnTbMI=
+[2m2025-06-04T22:52:08.042289Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m With cutoff: 56
+[2m2025-06-04T22:52:08.222422Z[0m [31mERROR[0m [2msubmission_log[0m[2m:[0m Diff to low, skipping submission from e1b48a01-94a0-45a0-8c49-cf0a379be8f0
+[2m2025-06-04T22:52:09.425710Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 763953ca-689b-47a5-a5b5-110a5023465e - Adding e1b48a01-94a0-45a0-8c49-cf0a379be8f0 submission diff: 14 to epoch_hashes submissions.
+[2m2025-06-04T22:52:09.425746Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 763953ca-689b-47a5-a5b5-110a5023465e - New best diff: 14
+[2m2025-06-04T22:52:09.425752Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 763953ca-689b-47a5-a5b5-110a5023465e - Added e1b48a01-94a0-45a0-8c49-cf0a379be8f0 submission diff: 14 to epoch_hashes submissions.
+[2m2025-06-04T22:52:19.697644Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m Giving clients challenge: 27P2lpBB/V9aH6LIoQj0kSJFEG9PcSUkjIRT4hnTbMI=
+[2m2025-06-04T22:52:19.697657Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m With cutoff: 45
+[2m2025-06-04T22:52:20.433606Z[0m [31mERROR[0m [2msubmission_log[0m[2m:[0m Diff to low, skipping submission from e5bb9e51-5b66-4801-af14-cafda222da60
+[2m2025-06-04T22:52:20.689306Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 899b0d9d-2b76-4ba3-a3bb-099fc508486c - Adding e5bb9e51-5b66-4801-af14-cafda222da60 submission diff: 12 to epoch_hashes submissions.
+[2m2025-06-04T22:52:20.689336Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 899b0d9d-2b76-4ba3-a3bb-099fc508486c - Added e5bb9e51-5b66-4801-af14-cafda222da60 submission diff: 12 to epoch_hashes submissions.
+[2m2025-06-04T22:53:09.125984Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m Giving clients challenge: FWALSn+TJ3RpzoI1owscFQGF2nZ7+xITwjJMPpOgVE4=
+[2m2025-06-04T22:53:09.126055Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m With cutoff: 56
+[2m2025-06-04T22:53:09.510580Z[0m [31mERROR[0m [2msubmission_log[0m[2m:[0m Diff to low, skipping submission from e5bb9e51-5b66-4801-af14-cafda222da60
+[2m2025-06-04T22:53:10.380331Z[0m [31mERROR[0m [2msubmission_log[0m[2m:[0m Diff to low, skipping submission from e1b48a01-94a0-45a0-8c49-cf0a379be8f0
+[2m2025-06-04T22:53:23.323426Z[0m [31mERROR[0m [2msubmission_log[0m[2m:[0m Diff to low, skipping submission from e5bb9e51-5b66-4801-af14-cafda222da60
+[2m2025-06-04T22:53:27.340039Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 7ed23657-1be0-4d82-b737-edf296071e54 - Adding e1b48a01-94a0-45a0-8c49-cf0a379be8f0 submission diff: 13 to epoch_hashes submissions.
+[2m2025-06-04T22:53:27.340075Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 7ed23657-1be0-4d82-b737-edf296071e54 - New best diff: 13
+[2m2025-06-04T22:53:27.340081Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 7ed23657-1be0-4d82-b737-edf296071e54 - Added e1b48a01-94a0-45a0-8c49-cf0a379be8f0 submission diff: 13 to epoch_hashes submissions.
+[2m2025-06-04T22:54:11.415311Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m Giving clients challenge: QYokuX4aI45j3nolnCg36D+rZinCYKR1hLXk7iFwYdI=
+[2m2025-06-04T22:54:11.415340Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m With cutoff: 56
+[2m2025-06-04T22:54:12.254267Z[0m [31mERROR[0m [2msubmission_log[0m[2m:[0m Diff to low, skipping submission from 830bc9e1-c0bb-4f37-a062-011fa9b81466
+[2m2025-06-04T22:54:12.695032Z[0m [31mERROR[0m [2msubmission_log[0m[2m:[0m Diff to low, skipping submission from 830bc9e1-c0bb-4f37-a062-011fa9b81466
+[2m2025-06-04T22:54:15.031372Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m Giving clients challenge: QYokuX4aI45j3nolnCg36D+rZinCYKR1hLXk7iFwYdI=
+[2m2025-06-04T22:54:15.031392Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m With cutoff: 52
+[2m2025-06-04T22:54:15.109487Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 3125ad76-5bc9-41b3-a114-a5f0b04de35d - Adding 9fca27aa-1b8e-4716-a4b5-0c7d085d3dd2 submission diff: 12 to epoch_hashes submissions.
+[2m2025-06-04T22:54:15.109527Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 3125ad76-5bc9-41b3-a114-a5f0b04de35d - New best diff: 12
+[2m2025-06-04T22:54:15.109533Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 3125ad76-5bc9-41b3-a114-a5f0b04de35d - Added 9fca27aa-1b8e-4716-a4b5-0c7d085d3dd2 submission diff: 12 to epoch_hashes submissions.
+[2m2025-06-04T22:54:16.130673Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m c7d54f2a-a7f4-450f-a5eb-d18f6361ca2e - New best diff: 14
+[2m2025-06-04T22:54:16.945303Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 21266595-881c-44ad-ab1e-fde33f8f4e0e - New best diff: 15
+[2m2025-06-04T22:54:29.550125Z[0m [31mERROR[0m [2msubmission_log[0m[2m:[0m Diff to low, skipping submission from 830bc9e1-c0bb-4f37-a062-011fa9b81466
+[2m2025-06-04T22:54:38.738404Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m Giving clients challenge: QYokuX4aI45j3nolnCg36D+rZinCYKR1hLXk7iFwYdI=
+[2m2025-06-04T22:54:38.738416Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m With cutoff: 29
+[2m2025-06-04T22:54:40.891002Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 45e698c2-7b26-407f-ad80-24938c177bcb - Adding 830bc9e1-c0bb-4f37-a062-011fa9b81466 submission diff: 12 to epoch_hashes submissions.
+[2m2025-06-04T22:54:40.891042Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 45e698c2-7b26-407f-ad80-24938c177bcb - Added 830bc9e1-c0bb-4f37-a062-011fa9b81466 submission diff: 12 to epoch_hashes submissions.
+[2m2025-06-04T22:54:41.080037Z[0m [31mERROR[0m [2msubmission_log[0m[2m:[0m Diff to low, skipping submission from ba299547-f7e2-4821-bf3b-237854fbab20
+[2m2025-06-04T22:54:45.292871Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 2459b855-5b6c-45a4-8129-354a089ab94b - Adding ba299547-f7e2-4821-bf3b-237854fbab20 submission diff: 12 to epoch_hashes submissions.
+[2m2025-06-04T22:54:45.292907Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 2459b855-5b6c-45a4-8129-354a089ab94b - Added ba299547-f7e2-4821-bf3b-237854fbab20 submission diff: 12 to epoch_hashes submissions.
+[2m2025-06-04T22:55:46.659763Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m Giving clients challenge: QYokuX4aI45j3nolnCg36D+rZinCYKR1hLXk7iFwYdI=
+[2m2025-06-04T22:55:46.659810Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m With cutoff: 0
+[2m2025-06-04T22:55:46.776228Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m a97ab6cf-697a-44ca-b7cf-3522e76888ec - Adding ba299547-f7e2-4821-bf3b-237854fbab20 submission diff: 12 to epoch_hashes submissions.
+[2m2025-06-04T22:55:46.776270Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m a97ab6cf-697a-44ca-b7cf-3522e76888ec - New best diff: 12
+[2m2025-06-04T22:55:46.776276Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m a97ab6cf-697a-44ca-b7cf-3522e76888ec - Added ba299547-f7e2-4821-bf3b-237854fbab20 submission diff: 12 to epoch_hashes submissions.
+[2m2025-06-04T22:55:48.669840Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m Giving clients challenge: t10SWS5IpMwMDxYvtLAASkcUqe9JVC7eSpsQzocfbF8=
+[2m2025-06-04T22:55:48.669852Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m With cutoff: 20
+[2m2025-06-04T22:55:49.474259Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m Giving clients challenge: t10SWS5IpMwMDxYvtLAASkcUqe9JVC7eSpsQzocfbF8=
+[2m2025-06-04T22:55:49.474282Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m With cutoff: 19
+[2m2025-06-04T22:55:50.415969Z[0m [31mERROR[0m [2msubmission_log[0m[2m:[0m Diff to low, skipping submission from 830bc9e1-c0bb-4f37-a062-011fa9b81466
+[2m2025-06-04T22:55:50.444678Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 89480c41-7ec9-4ca7-993f-8ec291561901 - Adding ba299547-f7e2-4821-bf3b-237854fbab20 submission diff: 13 to epoch_hashes submissions.
+[2m2025-06-04T22:55:50.444718Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 89480c41-7ec9-4ca7-993f-8ec291561901 - New best diff: 13
+[2m2025-06-04T22:55:50.444724Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 89480c41-7ec9-4ca7-993f-8ec291561901 - Added ba299547-f7e2-4821-bf3b-237854fbab20 submission diff: 13 to epoch_hashes submissions.
+[2m2025-06-04T22:55:51.002742Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m e8699ec6-4674-4583-9af1-da9c737f4fc2 - Adding 830bc9e1-c0bb-4f37-a062-011fa9b81466 submission diff: 12 to epoch_hashes submissions.
+[2m2025-06-04T22:55:51.002784Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m e8699ec6-4674-4583-9af1-da9c737f4fc2 - Added 830bc9e1-c0bb-4f37-a062-011fa9b81466 submission diff: 12 to epoch_hashes submissions.
+[2m2025-06-04T22:55:51.319702Z[0m [31mERROR[0m [2msubmission_log[0m[2m:[0m Diff to low, skipping submission from 9fca27aa-1b8e-4716-a4b5-0c7d085d3dd2
+[2m2025-06-04T22:55:51.320417Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m a34865f6-e7dd-4a23-9d53-c9c860b288ca - Adding 9fca27aa-1b8e-4716-a4b5-0c7d085d3dd2 submission diff: 17 to epoch_hashes submissions.
+[2m2025-06-04T22:55:51.320450Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m a34865f6-e7dd-4a23-9d53-c9c860b288ca - New best diff: 17
+[2m2025-06-04T22:55:51.320455Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m a34865f6-e7dd-4a23-9d53-c9c860b288ca - Added 9fca27aa-1b8e-4716-a4b5-0c7d085d3dd2 submission diff: 17 to epoch_hashes submissions.
+[2m2025-06-04T22:56:13.182604Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m Giving clients challenge: Zq7m8jBOhCiLiVhaK/ATpquiOqTIVbKsJiRkjtAL3KA=
+[2m2025-06-04T22:56:13.182635Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m With cutoff: 56
+[2m2025-06-04T22:56:13.542700Z[0m [31mERROR[0m [2msubmission_log[0m[2m:[0m Diff to low, skipping submission from 830bc9e1-c0bb-4f37-a062-011fa9b81466
+[2m2025-06-04T22:56:13.544734Z[0m [31mERROR[0m [2msubmission_log[0m[2m:[0m Diff to low, skipping submission from 9fca27aa-1b8e-4716-a4b5-0c7d085d3dd2
+[2m2025-06-04T22:56:14.707294Z[0m [31mERROR[0m [2msubmission_log[0m[2m:[0m Diff to low, skipping submission from ba299547-f7e2-4821-bf3b-237854fbab20
+[2m2025-06-04T22:56:16.574076Z[0m [31mERROR[0m [2msubmission_log[0m[2m:[0m Diff to low, skipping submission from ba299547-f7e2-4821-bf3b-237854fbab20
+[2m2025-06-04T22:56:17.093279Z[0m [31mERROR[0m [2msubmission_log[0m[2m:[0m Diff to low, skipping submission from ba299547-f7e2-4821-bf3b-237854fbab20
+[2m2025-06-04T22:56:22.139720Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m d3048634-11b8-4b9c-9d6a-183c127f4416 - Adding 9fca27aa-1b8e-4716-a4b5-0c7d085d3dd2 submission diff: 13 to epoch_hashes submissions.
+[2m2025-06-04T22:56:22.139771Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m d3048634-11b8-4b9c-9d6a-183c127f4416 - New best diff: 13
+[2m2025-06-04T22:56:22.139777Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m d3048634-11b8-4b9c-9d6a-183c127f4416 - Added 9fca27aa-1b8e-4716-a4b5-0c7d085d3dd2 submission diff: 13 to epoch_hashes submissions.
+[2m2025-06-04T22:56:22.475067Z[0m [31mERROR[0m [2msubmission_log[0m[2m:[0m Diff to low, skipping submission from 830bc9e1-c0bb-4f37-a062-011fa9b81466
+[2m2025-06-04T22:56:25.368888Z[0m [31mERROR[0m [2msubmission_log[0m[2m:[0m Diff to low, skipping submission from ba299547-f7e2-4821-bf3b-237854fbab20
+[2m2025-06-04T22:56:30.304060Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 59f7f54d-3188-46f7-b691-2576cc898549 - Adding ba299547-f7e2-4821-bf3b-237854fbab20 submission diff: 12 to epoch_hashes submissions.
+[2m2025-06-04T22:56:30.304098Z[0m [32m INFO[0m [2msubmission_log[0m[2m:[0m 59f7f54d-3188-46f7-b691-2576cc898549 - Added ba299547-f7e2-4821-bf3b-237854fbab20 submission diff: 12 to epoch_hashes submissions.

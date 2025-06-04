@@ -1,0 +1,879 @@
+[2m2025-06-04T22:48:12.602789Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m establishing rpc connection...
+[2m2025-06-04T22:48:12.619343Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Getting latest blockhash.
+[2m2025-06-04T22:48:14.002804Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m loading eth balance...
+[2m2025-06-04T22:48:14.413851Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Balance: 0.00
+[2m2025-06-04T22:48:14.777311Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Validating pool exists in db
+[2m2025-06-04T22:48:14.919698Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Validating commissions receiver is in db
+[2m2025-06-04T22:48:14.924556Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Found commissions receiver in db.
+[2m2025-06-04T22:48:14.924895Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Validating current challenge for pool exists in db
+[2m2025-06-04T22:48:14.929743Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m handle ready clients system started!
+[2m2025-06-04T22:48:14.929862Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Establishing rpc websocket connection...
+[2m2025-06-04T22:48:14.929979Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:14.930113Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m App pongs length: 0
+[2m2025-06-04T22:48:14.930954Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m listening on 0.0.0.0:3105
+[2m2025-06-04T22:48:15.467564Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m RPC WS connection established!
+[2m2025-06-04T22:48:15.743299Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Tracking pool proof updates with websocket
+[2m2025-06-04T22:48:15.930918Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:16.932130Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:17.934763Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:18.936433Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:19.938619Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:20.939641Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:21.941665Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:22.943253Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:23.945252Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:24.947178Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:25.949118Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:26.951174Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:27.953321Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:28.954554Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:29.956696Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:30.958110Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:31.960005Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:32.962396Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:33.964867Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:34.965496Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:35.967912Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:36.970449Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:37.972071Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:38.974697Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:39.976515Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:40.978919Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:41.981233Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:42.983014Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:43.985882Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:44.988449Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:45.990039Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:46.992436Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:47.993543Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:48.995328Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:49.997306Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:50.999400Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:52.001528Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:53.003258Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:54.004820Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:55.006054Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:55.115534Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Handling 1 ready clients.
+[2m2025-06-04T22:48:56.008354Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:57.010380Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:57.928511Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Handling 1 ready clients.
+[2m2025-06-04T22:48:58.012954Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:59.015050Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:48:59.931926Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m App pongs length: 1
+[2m2025-06-04T22:48:59.935335Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Handling 1 ready clients.
+[2m2025-06-04T22:49:00.017547Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:49:01.019759Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:49:02.020987Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Submission window closed.
+[2m2025-06-04T22:49:02.021072Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Starting mine submission attempt 0 with difficulty 16.
+[2m2025-06-04T22:49:02.021087Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Submission Challenge: 7e25RObw0AifODF39gi1iqBwi3cND6jBkyv9NlDE+Ac=
+[2m2025-06-04T22:49:02.021095Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Getting latest config and busses data.
+[2m2025-06-04T22:49:03.406568Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Latest Challenge: 7e25RObw0AifODF39gi1iqBwi3cND6jBkyv9NlDE+Ac=
+[2m2025-06-04T22:49:03.406758Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Including reset tx.
+[2m2025-06-04T22:49:03.406767Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m using priority fee of 50000
+[2m2025-06-04T22:49:03.406817Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m built ixs getting balances...
+[2m2025-06-04T22:49:03.621935Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Got block building tx...
+[2m2025-06-04T22:49:03.622480Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Sending signed tx...
+[2m2025-06-04T22:49:03.622489Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m attempt: 1
+[2m2025-06-04T22:49:04.512182Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Got new proof data
+[2m2025-06-04T22:49:04.512244Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Challenge: YZz2On1ovmX5+G35nI72oMxdWwm+knHevJ7vQrmvZeU=
+[2m2025-06-04T22:49:05.363089Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m SIG: 3RG2TvskuGvJhSdRk4e8Eh4QBRuYUmdyfN2zoZHGsATBTM7fgLdkUyMpoUg3vnBKpz8PoEUyjNkpA8Mz1kSV5uJZ
+[2m2025-06-04T22:49:05.575435Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532804, confirmations: Some(3), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:49:05.967314Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Checking for proof hash update.
+[2m2025-06-04T22:49:05.967365Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Adding new challenge to db
+[2m2025-06-04T22:49:05.989412Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m New challenge successfully added to db
+[2m2025-06-04T22:49:05.989511Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m reset epoch hashes
+[2m2025-06-04T22:49:05.989524Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m openning submission window.
+[2m2025-06-04T22:49:06.299227Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532804, confirmations: Some(5), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:49:06.364370Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Handling 1 ready clients.
+[2m2025-06-04T22:49:07.014307Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532804, confirmations: Some(7), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:49:07.730697Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532804, confirmations: Some(9), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:49:08.449889Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532804, confirmations: Some(11), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:49:09.171144Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532804, confirmations: Some(13), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:49:09.890923Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532804, confirmations: Some(15), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:49:10.667924Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532804, confirmations: Some(17), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:49:11.390458Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532804, confirmations: Some(19), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:49:12.109377Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532804, confirmations: Some(21), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:49:12.828743Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532804, confirmations: Some(23), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:49:13.552426Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532804, confirmations: Some(25), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:49:14.268219Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532804, confirmations: Some(27), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:49:14.989421Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532804, confirmations: Some(29), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:49:15.710661Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532804, confirmations: Some(31), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:49:16.508355Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532804, confirmations: None, status: Ok(()), err: None, confirmation_status: Some(Finalized) }
+[2m2025-06-04T22:49:16.508398Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Success!!
+[2m2025-06-04T22:49:16.508403Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Sig: 3RG2TvskuGvJhSdRk4e8Eh4QBRuYUmdyfN2zoZHGsATBTM7fgLdkUyMpoUg3vnBKpz8PoEUyjNkpA8Mz1kSV5uJZ
+[2m2025-06-04T22:49:16.508555Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Checking for proof hash update.
+[2m2025-06-04T22:49:16.508566Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Epoch hashes challenge already up to date!
+[2m2025-06-04T22:49:16.721904Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m MineEvent Global Boosts: MineEventWithGlobalBoosts { balance: 12665344, difficulty: 16, last_hash_at: 1748877980, timing: 199298, net_reward: 0, net_base_reward: 0, net_miner_boost_reward: 0, net_staker_boost_reward: 0 }
+[2m2025-06-04T22:49:16.721942Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m For Challenge: "7e25RObw0AifODF39gi1iqBwi3cND6jBkyv9NlDE+Ac="
+[2m2025-06-04T22:49:16.722739Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updating commissions rewards...
+[2m2025-06-04T22:49:16.722803Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m db90c11d-1dd2-4b5a-9225-1344dbadaf80 - Getting db pool connection.
+[2m2025-06-04T22:49:16.722837Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m db90c11d-1dd2-4b5a-9225-1344dbadaf80 - Got db pool connection in 0ms.
+[2m2025-06-04T22:49:16.735180Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updated commissions rewards
+[2m2025-06-04T22:49:17.939250Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Sending internal mine success for challenge: 7e25RObw0AifODF39gi1iqBwi3cND6jBkyv9NlDE+Ac=
+[2m2025-06-04T22:49:17.939365Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 80a5ea6c-5866-4e52-b536-b43b97b587f3 - Processing internal mine success for challenge: 7e25RObw0AifODF39gi1iqBwi3cND6jBkyv9NlDE+Ac=
+[2m2025-06-04T22:49:17.939377Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 80a5ea6c-5866-4e52-b536-b43b97b587f3 - Getting sockets.
+[2m2025-06-04T22:49:17.939384Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 80a5ea6c-5866-4e52-b536-b43b97b587f3 - Got sockets in 0.
+[2m2025-06-04T22:49:17.939390Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 80a5ea6c-5866-4e52-b536-b43b97b587f3 - Processing submission results for challenge: 7e25RObw0AifODF39gi1iqBwi3cND6jBkyv9NlDE+Ac=.
+[2m2025-06-04T22:49:17.939395Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m total_balance_full: 0.00012665344
+[2m2025-06-04T22:49:17.939402Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m total_rewards: 0
+[2m2025-06-04T22:49:17.940789Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 80a5ea6c-5866-4e52-b536-b43b97b587f3 - Finished processing submission results in 1ms for challenge: 7e25RObw0AifODF39gi1iqBwi3cND6jBkyv9NlDE+Ac=.
+[2m2025-06-04T22:49:17.940851Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 80a5ea6c-5866-4e52-b536-b43b97b587f3 - Adding earnings
+[2m2025-06-04T22:49:17.952039Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Earnings inserted: 1
+[2m2025-06-04T22:49:18.154789Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 80a5ea6c-5866-4e52-b536-b43b97b587f3 - Successfully added earnings batch
+[2m2025-06-04T22:49:18.154824Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 80a5ea6c-5866-4e52-b536-b43b97b587f3 - Added earnings in 213ms
+[2m2025-06-04T22:49:18.657548Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 80a5ea6c-5866-4e52-b536-b43b97b587f3 - Updating rewards
+[2m2025-06-04T22:49:18.657587Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 80a5ea6c-5866-4e52-b536-b43b97b587f3 - Updating reward batch 1
+[2m2025-06-04T22:49:18.657604Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 0ee2b996-b8b0-493e-8f2a-567868a3f230 - Getting db pool connection.
+[2m2025-06-04T22:49:18.657652Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 0ee2b996-b8b0-493e-8f2a-567868a3f230 - Got db pool connection in 0ms.
+[2m2025-06-04T22:49:18.658209Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 80a5ea6c-5866-4e52-b536-b43b97b587f3 - Updated reward batch 1 in 0ms
+[2m2025-06-04T22:49:18.859590Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 80a5ea6c-5866-4e52-b536-b43b97b587f3 - Successfully updated rewards
+[2m2025-06-04T22:49:18.859669Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 80a5ea6c-5866-4e52-b536-b43b97b587f3 - Updated rewards in 202ms
+[2m2025-06-04T22:49:19.360970Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 80a5ea6c-5866-4e52-b536-b43b97b587f3 - Adding submissions
+[2m2025-06-04T22:49:19.361033Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 80a5ea6c-5866-4e52-b536-b43b97b587f3 - Submissions batch size: 1
+[2m2025-06-04T22:49:19.371411Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Submissions inserted: 1
+[2m2025-06-04T22:49:19.572113Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 80a5ea6c-5866-4e52-b536-b43b97b587f3 - Successfully added submissions batch
+[2m2025-06-04T22:49:19.572148Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 80a5ea6c-5866-4e52-b536-b43b97b587f3 - Added submissions in 211ms
+[2m2025-06-04T22:49:20.073828Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 80a5ea6c-5866-4e52-b536-b43b97b587f3 - Updating pool rewards
+[2m2025-06-04T22:49:20.073867Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updating pool rewards for GKpHFpcA9xjiaxkJM1UXogSgUrHiDaENzKqqEtj3ae1P with 0 bitz
+[2m2025-06-04T22:49:20.076028Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Successfully updated pool rewards
+[2m2025-06-04T22:49:20.076049Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 80a5ea6c-5866-4e52-b536-b43b97b587f3 - Updated pool rewards in 2ms
+[2m2025-06-04T22:49:20.277493Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 80a5ea6c-5866-4e52-b536-b43b97b587f3 - Updating challenge rewards
+[2m2025-06-04T22:49:20.280771Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updated challenge rewards!
+[2m2025-06-04T22:49:20.280794Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 80a5ea6c-5866-4e52-b536-b43b97b587f3 - Updated challenge rewards in 3ms
+[2m2025-06-04T22:49:20.280801Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 80a5ea6c-5866-4e52-b536-b43b97b587f3 - Finished processing internal mine success for challenge: 7e25RObw0AifODF39gi1iqBwi3cND6jBkyv9NlDE+Ac=
+[2m2025-06-04T22:49:44.934238Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m App pongs length: 1
+[2m2025-06-04T22:50:02.096306Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Submission window closed.
+[2m2025-06-04T22:50:02.096388Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Starting mine submission attempt 0 with difficulty 19.
+[2m2025-06-04T22:50:02.096401Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Submission Challenge: YZz2On1ovmX5+G35nI72oMxdWwm+knHevJ7vQrmvZeU=
+[2m2025-06-04T22:50:02.096409Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Getting latest config and busses data.
+[2m2025-06-04T22:50:03.636507Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Latest Challenge: YZz2On1ovmX5+G35nI72oMxdWwm+knHevJ7vQrmvZeU=
+[2m2025-06-04T22:50:03.636873Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Including reset tx.
+[2m2025-06-04T22:50:03.636895Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m using priority fee of 50000
+[2m2025-06-04T22:50:03.637015Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m built ixs getting balances...
+[2m2025-06-04T22:50:04.004856Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Got block building tx...
+[2m2025-06-04T22:50:04.006425Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Sending signed tx...
+[2m2025-06-04T22:50:04.006449Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m attempt: 1
+[2m2025-06-04T22:50:04.838374Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Got new proof data
+[2m2025-06-04T22:50:04.838479Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Challenge: hXF1syRGePmVUxb3OKpEpGnDwXRRHgvkGwC/hG/oFck=
+[2m2025-06-04T22:50:05.598228Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m SIG: 5Qksz13QdtnB4FfmVagWoFsUGTfE1mkvuzQHFmn34YstDzDp45HzcHkLoemtV4Bs6RWpjyioS8zQieGubg3fJNcV
+[2m2025-06-04T22:50:05.817323Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532971, confirmations: Some(2), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:50:06.201063Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Checking for proof hash update.
+[2m2025-06-04T22:50:06.201094Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Adding new challenge to db
+[2m2025-06-04T22:50:06.206074Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m New challenge successfully added to db
+[2m2025-06-04T22:50:06.206097Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m reset epoch hashes
+[2m2025-06-04T22:50:06.206100Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m openning submission window.
+[2m2025-06-04T22:50:06.241126Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Handling 1 ready clients.
+[2m2025-06-04T22:50:06.530356Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532971, confirmations: Some(4), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:50:07.245181Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532971, confirmations: Some(6), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:50:07.957346Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532971, confirmations: Some(8), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:50:08.681703Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532971, confirmations: Some(10), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:50:09.407132Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532971, confirmations: Some(12), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:50:10.117844Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532971, confirmations: Some(14), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:50:10.845192Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532971, confirmations: Some(16), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:50:11.570433Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532971, confirmations: Some(18), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:50:12.289843Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532971, confirmations: Some(20), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:50:13.008310Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532971, confirmations: Some(22), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:50:13.726066Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532971, confirmations: Some(24), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:50:14.438220Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532971, confirmations: Some(26), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:50:15.150980Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532971, confirmations: Some(28), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:50:15.876053Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532971, confirmations: Some(30), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:50:16.588795Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74532971, confirmations: None, status: Ok(()), err: None, confirmation_status: Some(Finalized) }
+[2m2025-06-04T22:50:16.588863Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Success!!
+[2m2025-06-04T22:50:16.588869Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Sig: 5Qksz13QdtnB4FfmVagWoFsUGTfE1mkvuzQHFmn34YstDzDp45HzcHkLoemtV4Bs6RWpjyioS8zQieGubg3fJNcV
+[2m2025-06-04T22:50:16.588919Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Checking for proof hash update.
+[2m2025-06-04T22:50:16.588927Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Epoch hashes challenge already up to date!
+[2m2025-06-04T22:50:16.799459Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m MineEvent Global Boosts: MineEventWithGlobalBoosts { balance: 12913152, difficulty: 19, last_hash_at: 1749077343, timing: -4, net_reward: 495616, net_base_reward: 247808, net_miner_boost_reward: 0, net_staker_boost_reward: 247808 }
+[2m2025-06-04T22:50:16.799502Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m For Challenge: "YZz2On1ovmX5+G35nI72oMxdWwm+knHevJ7vQrmvZeU="
+[2m2025-06-04T22:50:16.801415Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updating commissions rewards...
+[2m2025-06-04T22:50:16.801454Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m cc46c696-492b-4031-9ea3-c9ae2e6a087c - Getting db pool connection.
+[2m2025-06-04T22:50:16.801485Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m cc46c696-492b-4031-9ea3-c9ae2e6a087c - Got db pool connection in 0ms.
+[2m2025-06-04T22:50:16.803552Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updated commissions rewards
+[2m2025-06-04T22:50:18.010448Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Sending internal mine success for challenge: YZz2On1ovmX5+G35nI72oMxdWwm+knHevJ7vQrmvZeU=
+[2m2025-06-04T22:50:18.010496Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 39303b5f-78f9-4231-8a85-b13b517dce6b - Processing internal mine success for challenge: YZz2On1ovmX5+G35nI72oMxdWwm+knHevJ7vQrmvZeU=
+[2m2025-06-04T22:50:18.010504Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 39303b5f-78f9-4231-8a85-b13b517dce6b - Getting sockets.
+[2m2025-06-04T22:50:18.010531Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 39303b5f-78f9-4231-8a85-b13b517dce6b - Got sockets in 0.
+[2m2025-06-04T22:50:18.010544Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 39303b5f-78f9-4231-8a85-b13b517dce6b - Processing submission results for challenge: YZz2On1ovmX5+G35nI72oMxdWwm+knHevJ7vQrmvZeU=.
+[2m2025-06-04T22:50:18.010550Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m total_balance_full: 0.00012913152
+[2m2025-06-04T22:50:18.010557Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m total_rewards: 235418
+[2m2025-06-04T22:50:18.012442Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 39303b5f-78f9-4231-8a85-b13b517dce6b - Finished processing submission results in 1ms for challenge: YZz2On1ovmX5+G35nI72oMxdWwm+knHevJ7vQrmvZeU=.
+[2m2025-06-04T22:50:18.012471Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 39303b5f-78f9-4231-8a85-b13b517dce6b - Adding earnings
+[2m2025-06-04T22:50:18.014440Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Earnings inserted: 1
+[2m2025-06-04T22:50:18.216224Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 39303b5f-78f9-4231-8a85-b13b517dce6b - Successfully added earnings batch
+[2m2025-06-04T22:50:18.216255Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 39303b5f-78f9-4231-8a85-b13b517dce6b - Added earnings in 203ms
+[2m2025-06-04T22:50:18.719045Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 39303b5f-78f9-4231-8a85-b13b517dce6b - Updating rewards
+[2m2025-06-04T22:50:18.719078Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 39303b5f-78f9-4231-8a85-b13b517dce6b - Updating reward batch 1
+[2m2025-06-04T22:50:18.719089Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 267e2c71-e1c0-48d6-8020-8a79f7f943b8 - Getting db pool connection.
+[2m2025-06-04T22:50:18.719144Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 267e2c71-e1c0-48d6-8020-8a79f7f943b8 - Got db pool connection in 0ms.
+[2m2025-06-04T22:50:18.720500Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 39303b5f-78f9-4231-8a85-b13b517dce6b - Updated reward batch 1 in 1ms
+[2m2025-06-04T22:50:18.923693Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 39303b5f-78f9-4231-8a85-b13b517dce6b - Successfully updated rewards
+[2m2025-06-04T22:50:18.923730Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 39303b5f-78f9-4231-8a85-b13b517dce6b - Updated rewards in 204ms
+[2m2025-06-04T22:50:19.427382Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 39303b5f-78f9-4231-8a85-b13b517dce6b - Adding submissions
+[2m2025-06-04T22:50:19.427421Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 39303b5f-78f9-4231-8a85-b13b517dce6b - Submissions batch size: 1
+[2m2025-06-04T22:50:19.428415Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Submissions inserted: 1
+[2m2025-06-04T22:50:19.631247Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 39303b5f-78f9-4231-8a85-b13b517dce6b - Successfully added submissions batch
+[2m2025-06-04T22:50:19.631287Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 39303b5f-78f9-4231-8a85-b13b517dce6b - Added submissions in 203ms
+[2m2025-06-04T22:50:20.133108Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 39303b5f-78f9-4231-8a85-b13b517dce6b - Updating pool rewards
+[2m2025-06-04T22:50:20.133149Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updating pool rewards for GKpHFpcA9xjiaxkJM1UXogSgUrHiDaENzKqqEtj3ae1P with 247808 bitz
+[2m2025-06-04T22:50:20.134745Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Successfully updated pool rewards
+[2m2025-06-04T22:50:20.134770Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 39303b5f-78f9-4231-8a85-b13b517dce6b - Updated pool rewards in 1ms
+[2m2025-06-04T22:50:20.336394Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 39303b5f-78f9-4231-8a85-b13b517dce6b - Updating challenge rewards
+[2m2025-06-04T22:50:20.339989Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updated challenge rewards!
+[2m2025-06-04T22:50:20.340017Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 39303b5f-78f9-4231-8a85-b13b517dce6b - Updated challenge rewards in 3ms
+[2m2025-06-04T22:50:20.340024Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 39303b5f-78f9-4231-8a85-b13b517dce6b - Finished processing internal mine success for challenge: YZz2On1ovmX5+G35nI72oMxdWwm+knHevJ7vQrmvZeU=
+[2m2025-06-04T22:50:29.964124Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m App pongs length: 1
+[2m2025-06-04T22:51:03.216657Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Submission window closed.
+[2m2025-06-04T22:51:03.216719Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Starting mine submission attempt 0 with difficulty 16.
+[2m2025-06-04T22:51:03.216727Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Submission Challenge: hXF1syRGePmVUxb3OKpEpGnDwXRRHgvkGwC/hG/oFck=
+[2m2025-06-04T22:51:03.216732Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Getting latest config and busses data.
+[2m2025-06-04T22:51:04.836582Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Latest Challenge: hXF1syRGePmVUxb3OKpEpGnDwXRRHgvkGwC/hG/oFck=
+[2m2025-06-04T22:51:04.836853Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Including reset tx.
+[2m2025-06-04T22:51:04.836863Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m using priority fee of 50000
+[2m2025-06-04T22:51:04.837507Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m built ixs getting balances...
+[2m2025-06-04T22:51:05.228134Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Got block building tx...
+[2m2025-06-04T22:51:05.230303Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Sending signed tx...
+[2m2025-06-04T22:51:05.230341Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m attempt: 1
+[2m2025-06-04T22:51:05.898922Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Got new proof data
+[2m2025-06-04T22:51:05.898973Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Challenge: SM/jIaGnPAfvbZ2Wjv/Xq0rIFrW6Sd4eU/UpuhKOtWo=
+[2m2025-06-04T22:51:05.903763Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m SIG: 3LMkymMBz3j9ojZD7bbcMv9aMSVJhxy16cFX6qMG39BM74n2nTEykhJncHBQ3LmXZv5BYdzVzTbp66jMm9mNM9Xq
+[2m2025-06-04T22:51:06.124171Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533141, confirmations: Some(0), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:51:06.507198Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Checking for proof hash update.
+[2m2025-06-04T22:51:06.507254Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Adding new challenge to db
+[2m2025-06-04T22:51:06.543201Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m New challenge successfully added to db
+[2m2025-06-04T22:51:06.543235Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m reset epoch hashes
+[2m2025-06-04T22:51:06.543242Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m openning submission window.
+[2m2025-06-04T22:51:06.558644Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Handling 1 ready clients.
+[2m2025-06-04T22:51:06.852545Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533141, confirmations: Some(2), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:51:07.573525Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533141, confirmations: Some(4), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:51:08.304253Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533141, confirmations: Some(6), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:51:09.025266Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533141, confirmations: Some(8), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:51:09.752420Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533141, confirmations: Some(10), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:51:10.478332Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533141, confirmations: Some(12), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:51:11.200434Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533141, confirmations: Some(14), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:51:11.921852Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533141, confirmations: Some(16), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:51:12.649185Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533141, confirmations: Some(18), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:51:13.379800Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533141, confirmations: Some(20), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:51:14.109199Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533141, confirmations: Some(22), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:51:14.839038Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533141, confirmations: Some(24), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:51:14.982459Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m App pongs length: 1
+[2m2025-06-04T22:51:15.562205Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533141, confirmations: Some(26), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:51:16.285840Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533141, confirmations: Some(28), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:51:17.014110Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533141, confirmations: Some(30), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:51:37.221446Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533141, confirmations: None, status: Ok(()), err: None, confirmation_status: Some(Finalized) }
+[2m2025-06-04T22:51:37.221495Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Success!!
+[2m2025-06-04T22:51:37.221500Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Sig: 3LMkymMBz3j9ojZD7bbcMv9aMSVJhxy16cFX6qMG39BM74n2nTEykhJncHBQ3LmXZv5BYdzVzTbp66jMm9mNM9Xq
+[2m2025-06-04T22:51:37.221548Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Checking for proof hash update.
+[2m2025-06-04T22:51:37.221574Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Epoch hashes challenge already up to date!
+[2m2025-06-04T22:51:37.456551Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m MineEvent Global Boosts: MineEventWithGlobalBoosts { balance: 12944128, difficulty: 16, last_hash_at: 1749077404, timing: -4, net_reward: 61952, net_base_reward: 30976, net_miner_boost_reward: 0, net_staker_boost_reward: 30976 }
+[2m2025-06-04T22:51:37.456564Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m For Challenge: "hXF1syRGePmVUxb3OKpEpGnDwXRRHgvkGwC/hG/oFck="
+[2m2025-06-04T22:51:37.470326Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updating commissions rewards...
+[2m2025-06-04T22:51:37.470353Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 08e9d4ee-5e70-4349-b149-c65b2c7cad50 - Getting db pool connection.
+[2m2025-06-04T22:51:37.470392Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 08e9d4ee-5e70-4349-b149-c65b2c7cad50 - Got db pool connection in 0ms.
+[2m2025-06-04T22:51:37.477580Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updated commissions rewards
+[2m2025-06-04T22:51:38.681278Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Sending internal mine success for challenge: hXF1syRGePmVUxb3OKpEpGnDwXRRHgvkGwC/hG/oFck=
+[2m2025-06-04T22:51:38.681650Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 6c4ec040-f8ca-4aea-b306-d1f6105534f3 - Processing internal mine success for challenge: hXF1syRGePmVUxb3OKpEpGnDwXRRHgvkGwC/hG/oFck=
+[2m2025-06-04T22:51:38.681664Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 6c4ec040-f8ca-4aea-b306-d1f6105534f3 - Getting sockets.
+[2m2025-06-04T22:51:38.681672Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 6c4ec040-f8ca-4aea-b306-d1f6105534f3 - Got sockets in 0.
+[2m2025-06-04T22:51:38.681678Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 6c4ec040-f8ca-4aea-b306-d1f6105534f3 - Processing submission results for challenge: hXF1syRGePmVUxb3OKpEpGnDwXRRHgvkGwC/hG/oFck=.
+[2m2025-06-04T22:51:38.681683Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m total_balance_full: 0.00012944128
+[2m2025-06-04T22:51:38.681690Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m total_rewards: 29428
+[2m2025-06-04T22:51:38.682868Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 6c4ec040-f8ca-4aea-b306-d1f6105534f3 - Finished processing submission results in 1ms for challenge: hXF1syRGePmVUxb3OKpEpGnDwXRRHgvkGwC/hG/oFck=.
+[2m2025-06-04T22:51:38.682893Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 6c4ec040-f8ca-4aea-b306-d1f6105534f3 - Adding earnings
+[2m2025-06-04T22:51:38.685137Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Earnings inserted: 1
+[2m2025-06-04T22:51:38.886636Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 6c4ec040-f8ca-4aea-b306-d1f6105534f3 - Successfully added earnings batch
+[2m2025-06-04T22:51:38.886672Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 6c4ec040-f8ca-4aea-b306-d1f6105534f3 - Added earnings in 203ms
+[2m2025-06-04T22:51:39.388074Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 6c4ec040-f8ca-4aea-b306-d1f6105534f3 - Updating rewards
+[2m2025-06-04T22:51:39.388121Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 6c4ec040-f8ca-4aea-b306-d1f6105534f3 - Updating reward batch 1
+[2m2025-06-04T22:51:39.388139Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m ddd59517-9ded-41ae-b9fc-49bd09e585cd - Getting db pool connection.
+[2m2025-06-04T22:51:39.388192Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m ddd59517-9ded-41ae-b9fc-49bd09e585cd - Got db pool connection in 0ms.
+[2m2025-06-04T22:51:39.389817Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 6c4ec040-f8ca-4aea-b306-d1f6105534f3 - Updated reward batch 1 in 1ms
+[2m2025-06-04T22:51:39.591667Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 6c4ec040-f8ca-4aea-b306-d1f6105534f3 - Successfully updated rewards
+[2m2025-06-04T22:51:39.591741Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 6c4ec040-f8ca-4aea-b306-d1f6105534f3 - Updated rewards in 203ms
+[2m2025-06-04T22:51:40.092970Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 6c4ec040-f8ca-4aea-b306-d1f6105534f3 - Adding submissions
+[2m2025-06-04T22:51:40.093017Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 6c4ec040-f8ca-4aea-b306-d1f6105534f3 - Submissions batch size: 1
+[2m2025-06-04T22:51:40.094276Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Submissions inserted: 1
+[2m2025-06-04T22:51:40.296038Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 6c4ec040-f8ca-4aea-b306-d1f6105534f3 - Successfully added submissions batch
+[2m2025-06-04T22:51:40.296073Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 6c4ec040-f8ca-4aea-b306-d1f6105534f3 - Added submissions in 203ms
+[2m2025-06-04T22:51:40.798078Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 6c4ec040-f8ca-4aea-b306-d1f6105534f3 - Updating pool rewards
+[2m2025-06-04T22:51:40.798151Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updating pool rewards for GKpHFpcA9xjiaxkJM1UXogSgUrHiDaENzKqqEtj3ae1P with 30976 bitz
+[2m2025-06-04T22:51:40.801704Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Successfully updated pool rewards
+[2m2025-06-04T22:51:40.801736Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 6c4ec040-f8ca-4aea-b306-d1f6105534f3 - Updated pool rewards in 3ms
+[2m2025-06-04T22:51:41.003339Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 6c4ec040-f8ca-4aea-b306-d1f6105534f3 - Updating challenge rewards
+[2m2025-06-04T22:51:41.006645Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updated challenge rewards!
+[2m2025-06-04T22:51:41.006674Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 6c4ec040-f8ca-4aea-b306-d1f6105534f3 - Updated challenge rewards in 3ms
+[2m2025-06-04T22:51:41.006682Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 6c4ec040-f8ca-4aea-b306-d1f6105534f3 - Finished processing internal mine success for challenge: hXF1syRGePmVUxb3OKpEpGnDwXRRHgvkGwC/hG/oFck=
+[2m2025-06-04T22:51:44.431256Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Establishing rpc websocket connection...
+[2m2025-06-04T22:51:45.628471Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m RPC WS connection established!
+[2m2025-06-04T22:51:46.302857Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Tracking pool proof updates with websocket
+[2m2025-06-04T22:51:59.985818Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m App pongs length: 1
+[2m2025-06-04T22:52:04.771935Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Submission window closed.
+[2m2025-06-04T22:52:04.771973Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Starting mine submission attempt 0 with difficulty 14.
+[2m2025-06-04T22:52:04.771977Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Submission Challenge: SM/jIaGnPAfvbZ2Wjv/Xq0rIFrW6Sd4eU/UpuhKOtWo=
+[2m2025-06-04T22:52:04.771985Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Getting latest config and busses data.
+[2m2025-06-04T22:52:06.044213Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Latest Challenge: SM/jIaGnPAfvbZ2Wjv/Xq0rIFrW6Sd4eU/UpuhKOtWo=
+[2m2025-06-04T22:52:06.044416Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Including reset tx.
+[2m2025-06-04T22:52:06.044424Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m using priority fee of 50000
+[2m2025-06-04T22:52:06.044481Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m built ixs getting balances...
+[2m2025-06-04T22:52:06.285949Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Got block building tx...
+[2m2025-06-04T22:52:06.286652Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Sending signed tx...
+[2m2025-06-04T22:52:06.286662Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m attempt: 1
+[2m2025-06-04T22:52:07.095014Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Got new proof data
+[2m2025-06-04T22:52:07.095063Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Challenge: 27P2lpBB/V9aH6LIoQj0kSJFEG9PcSUkjIRT4hnTbMI=
+[2m2025-06-04T22:52:07.246481Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m SIG: 4K1Np5wyJ7KrCmaCgJQAywF2Pm42UMPTDJMEpy29ju3SGZTfYbRjV3hfjBnpGfpKB26nzCtuxePX3mQNQLByJ2dU
+[2m2025-06-04T22:52:07.600647Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533311, confirmations: Some(1), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:52:07.850665Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Checking for proof hash update.
+[2m2025-06-04T22:52:07.850758Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Adding new challenge to db
+[2m2025-06-04T22:52:07.856253Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m New challenge successfully added to db
+[2m2025-06-04T22:52:07.856314Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m reset epoch hashes
+[2m2025-06-04T22:52:07.856328Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m openning submission window.
+[2m2025-06-04T22:52:08.042225Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Handling 1 ready clients.
+[2m2025-06-04T22:52:08.430446Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533311, confirmations: Some(3), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:52:09.262202Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533311, confirmations: Some(6), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:52:10.117472Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533311, confirmations: Some(8), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:52:10.973345Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533311, confirmations: Some(11), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:52:11.849080Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533311, confirmations: Some(13), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:52:12.739121Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533311, confirmations: Some(16), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:52:13.624187Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533311, confirmations: Some(18), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:52:14.396427Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533311, confirmations: Some(20), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:52:15.229941Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533311, confirmations: Some(23), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:52:15.965166Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533311, confirmations: Some(25), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:52:16.766286Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533311, confirmations: Some(27), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:52:17.519230Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533311, confirmations: Some(29), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:52:18.271126Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533311, confirmations: Some(31), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:52:19.016522Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533311, confirmations: None, status: Ok(()), err: None, confirmation_status: Some(Finalized) }
+[2m2025-06-04T22:52:19.016582Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Success!!
+[2m2025-06-04T22:52:19.016592Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Sig: 4K1Np5wyJ7KrCmaCgJQAywF2Pm42UMPTDJMEpy29ju3SGZTfYbRjV3hfjBnpGfpKB26nzCtuxePX3mQNQLByJ2dU
+[2m2025-06-04T22:52:19.016706Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Checking for proof hash update.
+[2m2025-06-04T22:52:19.016726Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Epoch hashes challenge already up to date!
+[2m2025-06-04T22:52:19.267814Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m MineEvent Global Boosts: MineEventWithGlobalBoosts { balance: 12951872, difficulty: 14, last_hash_at: 1749077465, timing: -4, net_reward: 15488, net_base_reward: 7744, net_miner_boost_reward: 0, net_staker_boost_reward: 7744 }
+[2m2025-06-04T22:52:19.267855Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m For Challenge: "SM/jIaGnPAfvbZ2Wjv/Xq0rIFrW6Sd4eU/UpuhKOtWo="
+[2m2025-06-04T22:52:19.269303Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updating commissions rewards...
+[2m2025-06-04T22:52:19.269352Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m cfe9a742-ca45-4155-8c67-5fa01f31ae83 - Getting db pool connection.
+[2m2025-06-04T22:52:19.269457Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m cfe9a742-ca45-4155-8c67-5fa01f31ae83 - Got db pool connection in 0ms.
+[2m2025-06-04T22:52:19.271795Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updated commissions rewards
+[2m2025-06-04T22:52:19.697606Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Handling 1 ready clients.
+[2m2025-06-04T22:52:20.475032Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Sending internal mine success for challenge: SM/jIaGnPAfvbZ2Wjv/Xq0rIFrW6Sd4eU/UpuhKOtWo=
+[2m2025-06-04T22:52:20.475101Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 53bfa059-00ba-4b7b-9d01-036791f0e720 - Processing internal mine success for challenge: SM/jIaGnPAfvbZ2Wjv/Xq0rIFrW6Sd4eU/UpuhKOtWo=
+[2m2025-06-04T22:52:20.475112Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 53bfa059-00ba-4b7b-9d01-036791f0e720 - Getting sockets.
+[2m2025-06-04T22:52:20.475122Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 53bfa059-00ba-4b7b-9d01-036791f0e720 - Got sockets in 0.
+[2m2025-06-04T22:52:20.475134Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 53bfa059-00ba-4b7b-9d01-036791f0e720 - Processing submission results for challenge: SM/jIaGnPAfvbZ2Wjv/Xq0rIFrW6Sd4eU/UpuhKOtWo=.
+[2m2025-06-04T22:52:20.475141Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m total_balance_full: 0.00012951872
+[2m2025-06-04T22:52:20.475150Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m total_rewards: 7357
+[2m2025-06-04T22:52:20.476118Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 53bfa059-00ba-4b7b-9d01-036791f0e720 - Finished processing submission results in 0ms for challenge: SM/jIaGnPAfvbZ2Wjv/Xq0rIFrW6Sd4eU/UpuhKOtWo=.
+[2m2025-06-04T22:52:20.476136Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 53bfa059-00ba-4b7b-9d01-036791f0e720 - Adding earnings
+[2m2025-06-04T22:52:20.476902Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Earnings inserted: 1
+[2m2025-06-04T22:52:20.678612Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 53bfa059-00ba-4b7b-9d01-036791f0e720 - Successfully added earnings batch
+[2m2025-06-04T22:52:20.678666Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 53bfa059-00ba-4b7b-9d01-036791f0e720 - Added earnings in 202ms
+[2m2025-06-04T22:52:21.181497Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 53bfa059-00ba-4b7b-9d01-036791f0e720 - Updating rewards
+[2m2025-06-04T22:52:21.181552Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 53bfa059-00ba-4b7b-9d01-036791f0e720 - Updating reward batch 1
+[2m2025-06-04T22:52:21.181580Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m cd3a56c0-baf7-47ea-9775-eced94f79756 - Getting db pool connection.
+[2m2025-06-04T22:52:21.181630Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m cd3a56c0-baf7-47ea-9775-eced94f79756 - Got db pool connection in 0ms.
+[2m2025-06-04T22:52:21.183200Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 53bfa059-00ba-4b7b-9d01-036791f0e720 - Updated reward batch 1 in 1ms
+[2m2025-06-04T22:52:21.385255Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 53bfa059-00ba-4b7b-9d01-036791f0e720 - Successfully updated rewards
+[2m2025-06-04T22:52:21.385299Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 53bfa059-00ba-4b7b-9d01-036791f0e720 - Updated rewards in 203ms
+[2m2025-06-04T22:52:21.887095Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 53bfa059-00ba-4b7b-9d01-036791f0e720 - Adding submissions
+[2m2025-06-04T22:52:21.887137Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 53bfa059-00ba-4b7b-9d01-036791f0e720 - Submissions batch size: 1
+[2m2025-06-04T22:52:21.888466Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Submissions inserted: 1
+[2m2025-06-04T22:52:22.090543Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 53bfa059-00ba-4b7b-9d01-036791f0e720 - Successfully added submissions batch
+[2m2025-06-04T22:52:22.090587Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 53bfa059-00ba-4b7b-9d01-036791f0e720 - Added submissions in 203ms
+[2m2025-06-04T22:52:22.592662Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 53bfa059-00ba-4b7b-9d01-036791f0e720 - Updating pool rewards
+[2m2025-06-04T22:52:22.592736Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updating pool rewards for GKpHFpcA9xjiaxkJM1UXogSgUrHiDaENzKqqEtj3ae1P with 7744 bitz
+[2m2025-06-04T22:52:22.596386Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Successfully updated pool rewards
+[2m2025-06-04T22:52:22.596418Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 53bfa059-00ba-4b7b-9d01-036791f0e720 - Updated pool rewards in 3ms
+[2m2025-06-04T22:52:22.798585Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 53bfa059-00ba-4b7b-9d01-036791f0e720 - Updating challenge rewards
+[2m2025-06-04T22:52:22.803313Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updated challenge rewards!
+[2m2025-06-04T22:52:22.803364Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 53bfa059-00ba-4b7b-9d01-036791f0e720 - Updated challenge rewards in 4ms
+[2m2025-06-04T22:52:22.803372Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 53bfa059-00ba-4b7b-9d01-036791f0e720 - Finished processing internal mine success for challenge: SM/jIaGnPAfvbZ2Wjv/Xq0rIFrW6Sd4eU/UpuhKOtWo=
+[2m2025-06-04T22:52:44.988608Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m App pongs length: 3
+[2m2025-06-04T22:53:05.608694Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Submission window closed.
+[2m2025-06-04T22:53:05.608813Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Starting mine submission attempt 0 with difficulty 14.
+[2m2025-06-04T22:53:05.608831Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Submission Challenge: 27P2lpBB/V9aH6LIoQj0kSJFEG9PcSUkjIRT4hnTbMI=
+[2m2025-06-04T22:53:05.608844Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Getting latest config and busses data.
+[2m2025-06-04T22:53:07.250276Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Latest Challenge: 27P2lpBB/V9aH6LIoQj0kSJFEG9PcSUkjIRT4hnTbMI=
+[2m2025-06-04T22:53:07.250553Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Including reset tx.
+[2m2025-06-04T22:53:07.250565Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m using priority fee of 50000
+[2m2025-06-04T22:53:07.250665Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m built ixs getting balances...
+[2m2025-06-04T22:53:07.487733Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Got block building tx...
+[2m2025-06-04T22:53:07.487952Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Sending signed tx...
+[2m2025-06-04T22:53:07.487970Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m attempt: 1
+[2m2025-06-04T22:53:08.179962Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Got new proof data
+[2m2025-06-04T22:53:08.180047Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Challenge: FWALSn+TJ3RpzoI1owscFQGF2nZ7+xITwjJMPpOgVE4=
+[2m2025-06-04T22:53:08.337563Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m SIG: 4yVa8pxYgBKJouo3Eq2YxzMhHB8PzxzJA2Fe49Hh7qQz22BHzA9wEMwXg8zFzHtG2NZdSu4u7GBMRuCETmJYAekP
+[2m2025-06-04T22:53:08.785415Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533481, confirmations: Some(1), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:53:08.941739Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Checking for proof hash update.
+[2m2025-06-04T22:53:08.941829Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Adding new challenge to db
+[2m2025-06-04T22:53:08.946559Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m New challenge successfully added to db
+[2m2025-06-04T22:53:08.946614Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m reset epoch hashes
+[2m2025-06-04T22:53:08.946624Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m openning submission window.
+[2m2025-06-04T22:53:09.125927Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Handling 2 ready clients.
+[2m2025-06-04T22:53:09.603966Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533481, confirmations: Some(3), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:53:10.422679Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533481, confirmations: Some(6), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:53:11.163632Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533481, confirmations: Some(8), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:53:11.919800Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533481, confirmations: Some(10), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:53:12.654374Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533481, confirmations: Some(12), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:53:13.494991Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533481, confirmations: Some(14), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:53:14.314141Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533481, confirmations: Some(16), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:53:15.133255Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533481, confirmations: Some(19), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:53:15.953026Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533481, confirmations: Some(21), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:53:16.771208Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533481, confirmations: Some(23), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:53:17.515864Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533481, confirmations: Some(25), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:53:18.297379Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533481, confirmations: Some(28), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:53:19.125850Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533481, confirmations: Some(30), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:53:19.885862Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533481, confirmations: None, status: Ok(()), err: None, confirmation_status: Some(Finalized) }
+[2m2025-06-04T22:53:19.885910Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Success!!
+[2m2025-06-04T22:53:19.885915Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Sig: 4yVa8pxYgBKJouo3Eq2YxzMhHB8PzxzJA2Fe49Hh7qQz22BHzA9wEMwXg8zFzHtG2NZdSu4u7GBMRuCETmJYAekP
+[2m2025-06-04T22:53:19.885995Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Checking for proof hash update.
+[2m2025-06-04T22:53:19.886046Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Epoch hashes challenge already up to date!
+[2m2025-06-04T22:53:20.139622Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m MineEvent Global Boosts: MineEventWithGlobalBoosts { balance: 12959616, difficulty: 14, last_hash_at: 1749077526, timing: -4, net_reward: 15488, net_base_reward: 7744, net_miner_boost_reward: 0, net_staker_boost_reward: 7744 }
+[2m2025-06-04T22:53:20.139646Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m For Challenge: "27P2lpBB/V9aH6LIoQj0kSJFEG9PcSUkjIRT4hnTbMI="
+[2m2025-06-04T22:53:20.140316Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updating commissions rewards...
+[2m2025-06-04T22:53:20.140345Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 6ddf804c-b259-4f25-bde0-a4954de4b2b6 - Getting db pool connection.
+[2m2025-06-04T22:53:20.140377Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 6ddf804c-b259-4f25-bde0-a4954de4b2b6 - Got db pool connection in 0ms.
+[2m2025-06-04T22:53:20.141699Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updated commissions rewards
+[2m2025-06-04T22:53:21.345219Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Sending internal mine success for challenge: 27P2lpBB/V9aH6LIoQj0kSJFEG9PcSUkjIRT4hnTbMI=
+[2m2025-06-04T22:53:21.345265Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 164b0a29-7dfb-4bf2-9b06-a3dc3ba40243 - Processing internal mine success for challenge: 27P2lpBB/V9aH6LIoQj0kSJFEG9PcSUkjIRT4hnTbMI=
+[2m2025-06-04T22:53:21.345272Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 164b0a29-7dfb-4bf2-9b06-a3dc3ba40243 - Getting sockets.
+[2m2025-06-04T22:53:21.345279Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 164b0a29-7dfb-4bf2-9b06-a3dc3ba40243 - Got sockets in 0.
+[2m2025-06-04T22:53:21.345285Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 164b0a29-7dfb-4bf2-9b06-a3dc3ba40243 - Processing submission results for challenge: 27P2lpBB/V9aH6LIoQj0kSJFEG9PcSUkjIRT4hnTbMI=.
+[2m2025-06-04T22:53:21.345290Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m total_balance_full: 0.00012959616
+[2m2025-06-04T22:53:21.345296Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m total_rewards: 7357
+[2m2025-06-04T22:53:21.346722Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 164b0a29-7dfb-4bf2-9b06-a3dc3ba40243 - Finished processing submission results in 1ms for challenge: 27P2lpBB/V9aH6LIoQj0kSJFEG9PcSUkjIRT4hnTbMI=.
+[2m2025-06-04T22:53:21.346752Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 164b0a29-7dfb-4bf2-9b06-a3dc3ba40243 - Adding earnings
+[2m2025-06-04T22:53:21.347557Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Earnings inserted: 2
+[2m2025-06-04T22:53:21.548850Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 164b0a29-7dfb-4bf2-9b06-a3dc3ba40243 - Successfully added earnings batch
+[2m2025-06-04T22:53:21.548885Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 164b0a29-7dfb-4bf2-9b06-a3dc3ba40243 - Added earnings in 202ms
+[2m2025-06-04T22:53:22.050028Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 164b0a29-7dfb-4bf2-9b06-a3dc3ba40243 - Updating rewards
+[2m2025-06-04T22:53:22.050067Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 164b0a29-7dfb-4bf2-9b06-a3dc3ba40243 - Updating reward batch 1
+[2m2025-06-04T22:53:22.050080Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m c8c63625-d347-44a6-b132-f879459d4b23 - Getting db pool connection.
+[2m2025-06-04T22:53:22.050132Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m c8c63625-d347-44a6-b132-f879459d4b23 - Got db pool connection in 0ms.
+[2m2025-06-04T22:53:22.052618Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 164b0a29-7dfb-4bf2-9b06-a3dc3ba40243 - Updated reward batch 1 in 2ms
+[2m2025-06-04T22:53:22.254556Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 164b0a29-7dfb-4bf2-9b06-a3dc3ba40243 - Successfully updated rewards
+[2m2025-06-04T22:53:22.254600Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 164b0a29-7dfb-4bf2-9b06-a3dc3ba40243 - Updated rewards in 204ms
+[2m2025-06-04T22:53:22.756271Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 164b0a29-7dfb-4bf2-9b06-a3dc3ba40243 - Adding submissions
+[2m2025-06-04T22:53:22.756307Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 164b0a29-7dfb-4bf2-9b06-a3dc3ba40243 - Submissions batch size: 2
+[2m2025-06-04T22:53:22.758220Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Submissions inserted: 2
+[2m2025-06-04T22:53:22.960909Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 164b0a29-7dfb-4bf2-9b06-a3dc3ba40243 - Successfully added submissions batch
+[2m2025-06-04T22:53:22.960949Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 164b0a29-7dfb-4bf2-9b06-a3dc3ba40243 - Added submissions in 204ms
+[2m2025-06-04T22:53:23.461796Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 164b0a29-7dfb-4bf2-9b06-a3dc3ba40243 - Updating pool rewards
+[2m2025-06-04T22:53:23.461841Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updating pool rewards for GKpHFpcA9xjiaxkJM1UXogSgUrHiDaENzKqqEtj3ae1P with 7744 bitz
+[2m2025-06-04T22:53:23.462770Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Successfully updated pool rewards
+[2m2025-06-04T22:53:23.462793Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 164b0a29-7dfb-4bf2-9b06-a3dc3ba40243 - Updated pool rewards in 1ms
+[2m2025-06-04T22:53:23.664512Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 164b0a29-7dfb-4bf2-9b06-a3dc3ba40243 - Updating challenge rewards
+[2m2025-06-04T22:53:23.666377Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updated challenge rewards!
+[2m2025-06-04T22:53:23.666421Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 164b0a29-7dfb-4bf2-9b06-a3dc3ba40243 - Updated challenge rewards in 1ms
+[2m2025-06-04T22:53:23.666429Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 164b0a29-7dfb-4bf2-9b06-a3dc3ba40243 - Finished processing internal mine success for challenge: 27P2lpBB/V9aH6LIoQj0kSJFEG9PcSUkjIRT4hnTbMI=
+[2m2025-06-04T22:53:29.990251Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m App pongs length: 3
+[2m2025-06-04T22:53:56.241726Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m NotFound
+[2m2025-06-04T22:53:56.241796Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m No miner account exists. Signing up new user.
+[2m2025-06-04T22:53:56.255710Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Successfully inserted signup for pubkey: AjeqFz1Hjrzu2h6jjRz7PLCR7jU1JMVqLWnYytPQkxHp
+[2m2025-06-04T22:54:06.475105Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Submission window closed.
+[2m2025-06-04T22:54:06.475168Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Starting mine submission attempt 0 with difficulty 13.
+[2m2025-06-04T22:54:06.475182Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Submission Challenge: FWALSn+TJ3RpzoI1owscFQGF2nZ7+xITwjJMPpOgVE4=
+[2m2025-06-04T22:54:06.475193Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Getting latest config and busses data.
+[2m2025-06-04T22:54:08.177002Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Latest Challenge: FWALSn+TJ3RpzoI1owscFQGF2nZ7+xITwjJMPpOgVE4=
+[2m2025-06-04T22:54:08.177395Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Including reset tx.
+[2m2025-06-04T22:54:08.177415Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m using priority fee of 50000
+[2m2025-06-04T22:54:08.177532Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m built ixs getting balances...
+[2m2025-06-04T22:54:08.688232Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Got block building tx...
+[2m2025-06-04T22:54:08.688469Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Sending signed tx...
+[2m2025-06-04T22:54:08.688483Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m attempt: 1
+[2m2025-06-04T22:54:10.214367Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Got new proof data
+[2m2025-06-04T22:54:10.214450Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Challenge: QYokuX4aI45j3nolnCg36D+rZinCYKR1hLXk7iFwYdI=
+[2m2025-06-04T22:54:10.633569Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m SIG: 3W24ZxUky8hfjvS9jYFnXetb7E6NJ3C7KU6WQaeKPu4aenr1BrdDUVFAvrQYYZYZs9rVU1T2XQ2enhNVRuC2UJ6
+[2m2025-06-04T22:54:11.042969Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533652, confirmations: Some(2), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:54:11.238214Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Checking for proof hash update.
+[2m2025-06-04T22:54:11.238272Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Adding new challenge to db
+[2m2025-06-04T22:54:11.241175Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m New challenge successfully added to db
+[2m2025-06-04T22:54:11.241221Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m reset epoch hashes
+[2m2025-06-04T22:54:11.241233Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m openning submission window.
+[2m2025-06-04T22:54:11.415267Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Handling 1 ready clients.
+[2m2025-06-04T22:54:11.862568Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533652, confirmations: Some(4), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:54:12.681731Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533652, confirmations: Some(7), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:54:13.500988Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533652, confirmations: Some(9), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:54:14.320423Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533652, confirmations: Some(11), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:54:14.991897Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m App pongs length: 4
+[2m2025-06-04T22:54:15.031319Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Handling 1 ready clients.
+[2m2025-06-04T22:54:15.139239Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533652, confirmations: Some(14), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:54:15.958703Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533652, confirmations: Some(16), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:54:16.730313Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533652, confirmations: Some(18), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:54:17.596662Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533652, confirmations: Some(20), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:54:18.347200Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533652, confirmations: Some(23), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:54:19.127919Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533652, confirmations: Some(25), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:54:19.883215Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533652, confirmations: Some(27), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:54:20.633845Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533652, confirmations: Some(29), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:54:21.487977Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533652, confirmations: Some(31), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:54:22.228328Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533652, confirmations: None, status: Ok(()), err: None, confirmation_status: Some(Finalized) }
+[2m2025-06-04T22:54:22.228365Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Success!!
+[2m2025-06-04T22:54:22.228370Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Sig: 3W24ZxUky8hfjvS9jYFnXetb7E6NJ3C7KU6WQaeKPu4aenr1BrdDUVFAvrQYYZYZs9rVU1T2XQ2enhNVRuC2UJ6
+[2m2025-06-04T22:54:22.228418Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Checking for proof hash update.
+[2m2025-06-04T22:54:22.228425Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Epoch hashes challenge already up to date!
+[2m2025-06-04T22:54:22.512089Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m MineEvent Global Boosts: MineEventWithGlobalBoosts { balance: 12963488, difficulty: 13, last_hash_at: 1749077587, timing: -3, net_reward: 7744, net_base_reward: 3872, net_miner_boost_reward: 0, net_staker_boost_reward: 3872 }
+[2m2025-06-04T22:54:22.512118Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m For Challenge: "FWALSn+TJ3RpzoI1owscFQGF2nZ7+xITwjJMPpOgVE4="
+[2m2025-06-04T22:54:22.512703Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updating commissions rewards...
+[2m2025-06-04T22:54:22.512726Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 7410dbf7-77b7-4788-8b68-dbb88ccd4b57 - Getting db pool connection.
+[2m2025-06-04T22:54:22.512756Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 7410dbf7-77b7-4788-8b68-dbb88ccd4b57 - Got db pool connection in 0ms.
+[2m2025-06-04T22:54:22.514114Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updated commissions rewards
+[2m2025-06-04T22:54:23.718003Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Sending internal mine success for challenge: FWALSn+TJ3RpzoI1owscFQGF2nZ7+xITwjJMPpOgVE4=
+[2m2025-06-04T22:54:23.718076Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m fc24b710-4e15-4372-a68a-2587bb9dd594 - Processing internal mine success for challenge: FWALSn+TJ3RpzoI1owscFQGF2nZ7+xITwjJMPpOgVE4=
+[2m2025-06-04T22:54:23.718091Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m fc24b710-4e15-4372-a68a-2587bb9dd594 - Getting sockets.
+[2m2025-06-04T22:54:23.718102Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m fc24b710-4e15-4372-a68a-2587bb9dd594 - Got sockets in 0.
+[2m2025-06-04T22:54:23.718113Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m fc24b710-4e15-4372-a68a-2587bb9dd594 - Processing submission results for challenge: FWALSn+TJ3RpzoI1owscFQGF2nZ7+xITwjJMPpOgVE4=.
+[2m2025-06-04T22:54:23.718123Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m total_balance_full: 0.00012963488
+[2m2025-06-04T22:54:23.718135Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m total_rewards: 3679
+[2m2025-06-04T22:54:23.719371Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m fc24b710-4e15-4372-a68a-2587bb9dd594 - Finished processing submission results in 1ms for challenge: FWALSn+TJ3RpzoI1owscFQGF2nZ7+xITwjJMPpOgVE4=.
+[2m2025-06-04T22:54:23.719402Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m fc24b710-4e15-4372-a68a-2587bb9dd594 - Adding earnings
+[2m2025-06-04T22:54:23.721189Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Earnings inserted: 1
+[2m2025-06-04T22:54:23.922710Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m fc24b710-4e15-4372-a68a-2587bb9dd594 - Successfully added earnings batch
+[2m2025-06-04T22:54:23.922767Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m fc24b710-4e15-4372-a68a-2587bb9dd594 - Added earnings in 203ms
+[2m2025-06-04T22:54:24.424981Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m fc24b710-4e15-4372-a68a-2587bb9dd594 - Updating rewards
+[2m2025-06-04T22:54:24.425036Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m fc24b710-4e15-4372-a68a-2587bb9dd594 - Updating reward batch 1
+[2m2025-06-04T22:54:24.425067Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m a4ba5fdd-3799-4ca7-869f-f1fd7edf60a3 - Getting db pool connection.
+[2m2025-06-04T22:54:24.425152Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m a4ba5fdd-3799-4ca7-869f-f1fd7edf60a3 - Got db pool connection in 0ms.
+[2m2025-06-04T22:54:24.427829Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m fc24b710-4e15-4372-a68a-2587bb9dd594 - Updated reward batch 1 in 2ms
+[2m2025-06-04T22:54:24.629310Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m fc24b710-4e15-4372-a68a-2587bb9dd594 - Successfully updated rewards
+[2m2025-06-04T22:54:24.629371Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m fc24b710-4e15-4372-a68a-2587bb9dd594 - Updated rewards in 204ms
+[2m2025-06-04T22:54:25.131489Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m fc24b710-4e15-4372-a68a-2587bb9dd594 - Adding submissions
+[2m2025-06-04T22:54:25.131544Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m fc24b710-4e15-4372-a68a-2587bb9dd594 - Submissions batch size: 1
+[2m2025-06-04T22:54:25.132942Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Submissions inserted: 1
+[2m2025-06-04T22:54:25.335063Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m fc24b710-4e15-4372-a68a-2587bb9dd594 - Successfully added submissions batch
+[2m2025-06-04T22:54:25.335118Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m fc24b710-4e15-4372-a68a-2587bb9dd594 - Added submissions in 203ms
+[2m2025-06-04T22:54:25.837430Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m fc24b710-4e15-4372-a68a-2587bb9dd594 - Updating pool rewards
+[2m2025-06-04T22:54:25.837469Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updating pool rewards for GKpHFpcA9xjiaxkJM1UXogSgUrHiDaENzKqqEtj3ae1P with 3872 bitz
+[2m2025-06-04T22:54:25.838359Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Successfully updated pool rewards
+[2m2025-06-04T22:54:25.838374Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m fc24b710-4e15-4372-a68a-2587bb9dd594 - Updated pool rewards in 0ms
+[2m2025-06-04T22:54:26.040714Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m fc24b710-4e15-4372-a68a-2587bb9dd594 - Updating challenge rewards
+[2m2025-06-04T22:54:26.042773Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updated challenge rewards!
+[2m2025-06-04T22:54:26.042793Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m fc24b710-4e15-4372-a68a-2587bb9dd594 - Updated challenge rewards in 2ms
+[2m2025-06-04T22:54:26.042800Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m fc24b710-4e15-4372-a68a-2587bb9dd594 - Finished processing internal mine success for challenge: FWALSn+TJ3RpzoI1owscFQGF2nZ7+xITwjJMPpOgVE4=
+[2m2025-06-04T22:54:29.169555Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m NotFound
+[2m2025-06-04T22:54:35.347428Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m NotFound
+[2m2025-06-04T22:54:35.347462Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m No miner account exists. Signing up new user.
+[2m2025-06-04T22:54:35.349850Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Successfully inserted signup for pubkey: 1TNhav5936PHzNn6EoQhoy6TNg8r9rTQR6fAbXMTsd8
+[2m2025-06-04T22:54:38.738360Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Handling 1 ready clients.
+[2m2025-06-04T22:54:59.994574Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m App pongs length: 5
+[2m2025-06-04T22:55:08.816451Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Submission window closed.
+[2m2025-06-04T22:55:08.816552Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Starting mine submission attempt 0 with difficulty 15.
+[2m2025-06-04T22:55:08.816593Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Submission Challenge: QYokuX4aI45j3nolnCg36D+rZinCYKR1hLXk7iFwYdI=
+[2m2025-06-04T22:55:08.816607Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Getting latest config and busses data.
+[2m2025-06-04T22:55:10.441809Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Latest Challenge: QYokuX4aI45j3nolnCg36D+rZinCYKR1hLXk7iFwYdI=
+[2m2025-06-04T22:55:10.441991Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Including reset tx.
+[2m2025-06-04T22:55:10.442001Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m using priority fee of 50000
+[2m2025-06-04T22:55:10.442638Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m built ixs getting balances...
+[2m2025-06-04T22:55:10.671615Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Got block building tx...
+[2m2025-06-04T22:55:10.673543Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Sending signed tx...
+[2m2025-06-04T22:55:10.673573Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m attempt: 1
+[2m2025-06-04T22:55:12.276205Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Establishing rpc websocket connection...
+[2m2025-06-04T22:55:13.074346Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m RPC WS connection established!
+[2m2025-06-04T22:55:13.381273Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Tracking pool proof updates with websocket
+[2m2025-06-04T22:55:40.916540Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m Failed to send mine tx error: Error { request: Some(SendTransaction), kind: Reqwest(reqwest::Error { kind: Request, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("bitz-000.eclipserpc.xyz")), port: None, path: "/", query: None, fragment: None }, source: TimedOut }) }
+[2m2025-06-04T22:55:40.918160Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m Attempt 1 Failed to send mine transaction. retrying in 1 seconds...
+[2m2025-06-04T22:55:42.989632Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m Failed to send mine tx error: Error { request: Some(SendTransaction), kind: RpcError(RpcResponseError { code: -32002, message: "Transaction simulation failed: This transaction has already been processed", data: SendTransactionPreflightFailure(RpcSimulateTransactionResult { err: Some(AlreadyProcessed), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }) }
+[2m2025-06-04T22:55:42.989999Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m Attempt 2 Failed to send mine transaction. retrying in 1 seconds...
+[2m2025-06-04T22:55:44.759136Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m Failed to send mine tx error: Error { request: Some(SendTransaction), kind: RpcError(RpcResponseError { code: -32002, message: "Transaction simulation failed: This transaction has already been processed", data: SendTransactionPreflightFailure(RpcSimulateTransactionResult { err: Some(AlreadyProcessed), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }) }
+[2m2025-06-04T22:55:44.759189Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m Attempt 3 Failed to send mine transaction. retrying in 1 seconds...
+[2m2025-06-04T22:55:44.997421Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m App pongs length: 3
+[2m2025-06-04T22:55:46.494592Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m Failed to send mine tx error: Error { request: Some(SendTransaction), kind: RpcError(RpcResponseError { code: -32002, message: "Transaction simulation failed: This transaction has already been processed", data: SendTransactionPreflightFailure(RpcSimulateTransactionResult { err: Some(AlreadyProcessed), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }) }
+[2m2025-06-04T22:55:46.494646Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m Attempt 4 Failed to send mine transaction. retrying in 1 seconds...
+[2m2025-06-04T22:55:46.494712Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Failed to send tx. Discarding and refreshing data.
+[2m2025-06-04T22:55:46.494725Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m reset epoch hashes
+[2m2025-06-04T22:55:46.494732Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m openning submission window.
+[2m2025-06-04T22:55:46.659707Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Handling 3 ready clients.
+[2m2025-06-04T22:55:46.997305Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Submission window closed.
+[2m2025-06-04T22:55:46.997344Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Starting mine submission attempt 0 with difficulty 12.
+[2m2025-06-04T22:55:46.997352Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Submission Challenge: QYokuX4aI45j3nolnCg36D+rZinCYKR1hLXk7iFwYdI=
+[2m2025-06-04T22:55:46.997358Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Getting latest config and busses data.
+[2m2025-06-04T22:55:48.243470Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Latest Challenge: t10SWS5IpMwMDxYvtLAASkcUqe9JVC7eSpsQzocfbF8=
+[2m2025-06-04T22:55:48.243641Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m SOLUTION IS NOT VALID ANYMORE!
+[2m2025-06-04T22:55:48.243648Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updating to latest proof.
+[2m2025-06-04T22:55:48.243655Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Failed to send tx. Discarding and refreshing data.
+[2m2025-06-04T22:55:48.243662Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m reset epoch hashes
+[2m2025-06-04T22:55:48.243666Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m openning submission window.
+[2m2025-06-04T22:55:48.669803Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Handling 2 ready clients.
+[2m2025-06-04T22:55:48.973348Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m Client nonce range not set!
+[2m2025-06-04T22:55:49.474200Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Handling 1 ready clients.
+[2m2025-06-04T22:56:09.786703Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Submission window closed.
+[2m2025-06-04T22:56:09.786763Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Starting mine submission attempt 0 with difficulty 17.
+[2m2025-06-04T22:56:09.786771Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Submission Challenge: t10SWS5IpMwMDxYvtLAASkcUqe9JVC7eSpsQzocfbF8=
+[2m2025-06-04T22:56:09.786787Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Getting latest config and busses data.
+[2m2025-06-04T22:56:11.260393Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Latest Challenge: t10SWS5IpMwMDxYvtLAASkcUqe9JVC7eSpsQzocfbF8=
+[2m2025-06-04T22:56:11.260576Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Including reset tx.
+[2m2025-06-04T22:56:11.260583Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m using priority fee of 50000
+[2m2025-06-04T22:56:11.261211Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m built ixs getting balances...
+[2m2025-06-04T22:56:11.492652Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Got block building tx...
+[2m2025-06-04T22:56:11.496189Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Sending signed tx...
+[2m2025-06-04T22:56:11.496216Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m attempt: 1
+[2m2025-06-04T22:56:12.162786Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Got new proof data
+[2m2025-06-04T22:56:12.162824Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Challenge: Zq7m8jBOhCiLiVhaK/ATpquiOqTIVbKsJiRkjtAL3KA=
+[2m2025-06-04T22:56:12.235375Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m SIG: L3D5dnmkY4XirKEwam6Bn29F1PKxtP5Y1um3CURFCx5mg2zwcN79GTYz8p5Xqfvv21pcmGCVwMjeGQKy99ND6UD
+[2m2025-06-04T22:56:12.463050Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533991, confirmations: Some(1), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:56:12.838907Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Checking for proof hash update.
+[2m2025-06-04T22:56:12.838985Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Adding new challenge to db
+[2m2025-06-04T22:56:12.881195Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m New challenge successfully added to db
+[2m2025-06-04T22:56:12.881252Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m reset epoch hashes
+[2m2025-06-04T22:56:12.881263Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m openning submission window.
+[2m2025-06-04T22:56:13.182562Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Handling 3 ready clients.
+[2m2025-06-04T22:56:13.196547Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533991, confirmations: Some(3), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:56:13.962063Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533991, confirmations: Some(4), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:56:14.725513Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533991, confirmations: Some(7), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:56:15.485093Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533991, confirmations: Some(9), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:56:16.238122Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533991, confirmations: Some(11), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:56:17.004596Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533991, confirmations: Some(13), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:56:17.763526Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533991, confirmations: Some(15), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:56:18.533728Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533991, confirmations: Some(17), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:56:19.270500Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533991, confirmations: Some(19), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:56:20.025808Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533991, confirmations: Some(21), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:56:20.762676Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533991, confirmations: Some(23), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:56:21.500651Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533991, confirmations: Some(25), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:56:22.231275Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533991, confirmations: Some(28), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:56:23.011543Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533991, confirmations: Some(30), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:56:23.760525Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74533991, confirmations: None, status: Ok(()), err: None, confirmation_status: Some(Finalized) }
+[2m2025-06-04T22:56:23.760760Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Success!!
+[2m2025-06-04T22:56:23.760771Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Sig: L3D5dnmkY4XirKEwam6Bn29F1PKxtP5Y1um3CURFCx5mg2zwcN79GTYz8p5Xqfvv21pcmGCVwMjeGQKy99ND6UD
+[2m2025-06-04T22:56:23.760825Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Checking for proof hash update.
+[2m2025-06-04T22:56:23.761068Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Epoch hashes challenge already up to date!
+[2m2025-06-04T22:56:23.994875Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m MineEvent Global Boosts: MineEventWithGlobalBoosts { balance: 13040928, difficulty: 17, last_hash_at: 1749077710, timing: -4, net_reward: 123904, net_base_reward: 61952, net_miner_boost_reward: 0, net_staker_boost_reward: 61952 }
+[2m2025-06-04T22:56:23.994901Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m For Challenge: "t10SWS5IpMwMDxYvtLAASkcUqe9JVC7eSpsQzocfbF8="
+[2m2025-06-04T22:56:24.002790Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m NotFound
+[2m2025-06-04T22:56:24.002868Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m Failed to get challenge by challenge! Inserting if necessary...
+[2m2025-06-04T22:56:24.004821Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m New challenge successfully added to db
+[2m2025-06-04T22:56:25.007379Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updating commissions rewards...
+[2m2025-06-04T22:56:25.007416Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 2410b1f2-6c4f-42aa-8857-a17dc59eb10c - Getting db pool connection.
+[2m2025-06-04T22:56:25.007454Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 2410b1f2-6c4f-42aa-8857-a17dc59eb10c - Got db pool connection in 0ms.
+[2m2025-06-04T22:56:25.014717Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updated commissions rewards
+[2m2025-06-04T22:56:26.217778Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Sending internal mine success for challenge: t10SWS5IpMwMDxYvtLAASkcUqe9JVC7eSpsQzocfbF8=
+[2m2025-06-04T22:56:26.222014Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 3ddc2bfa-2bde-455b-b64a-10a3e6b6c738 - Processing internal mine success for challenge: t10SWS5IpMwMDxYvtLAASkcUqe9JVC7eSpsQzocfbF8=
+[2m2025-06-04T22:56:26.222049Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 3ddc2bfa-2bde-455b-b64a-10a3e6b6c738 - Getting sockets.
+[2m2025-06-04T22:56:26.222057Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 3ddc2bfa-2bde-455b-b64a-10a3e6b6c738 - Got sockets in 0.
+[2m2025-06-04T22:56:26.222063Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 3ddc2bfa-2bde-455b-b64a-10a3e6b6c738 - Processing submission results for challenge: t10SWS5IpMwMDxYvtLAASkcUqe9JVC7eSpsQzocfbF8=.
+[2m2025-06-04T22:56:26.222067Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m total_balance_full: 0.00013040928
+[2m2025-06-04T22:56:26.222073Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m total_rewards: 58855
+[2m2025-06-04T22:56:26.224304Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 3ddc2bfa-2bde-455b-b64a-10a3e6b6c738 - Finished processing submission results in 2ms for challenge: t10SWS5IpMwMDxYvtLAASkcUqe9JVC7eSpsQzocfbF8=.
+[2m2025-06-04T22:56:26.224432Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 3ddc2bfa-2bde-455b-b64a-10a3e6b6c738 - Adding earnings
+[2m2025-06-04T22:56:26.236314Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Earnings inserted: 3
+[2m2025-06-04T22:56:26.438090Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 3ddc2bfa-2bde-455b-b64a-10a3e6b6c738 - Successfully added earnings batch
+[2m2025-06-04T22:56:26.438156Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 3ddc2bfa-2bde-455b-b64a-10a3e6b6c738 - Added earnings in 213ms
+[2m2025-06-04T22:56:26.940711Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 3ddc2bfa-2bde-455b-b64a-10a3e6b6c738 - Updating rewards
+[2m2025-06-04T22:56:26.940751Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 3ddc2bfa-2bde-455b-b64a-10a3e6b6c738 - Updating reward batch 1
+[2m2025-06-04T22:56:26.940762Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 7d6df44a-20a5-452a-86e3-84c64b4411ed - Getting db pool connection.
+[2m2025-06-04T22:56:26.940813Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 7d6df44a-20a5-452a-86e3-84c64b4411ed - Got db pool connection in 0ms.
+[2m2025-06-04T22:56:26.960997Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 3ddc2bfa-2bde-455b-b64a-10a3e6b6c738 - Updated reward batch 1 in 20ms
+[2m2025-06-04T22:56:27.163100Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 3ddc2bfa-2bde-455b-b64a-10a3e6b6c738 - Successfully updated rewards
+[2m2025-06-04T22:56:27.163142Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 3ddc2bfa-2bde-455b-b64a-10a3e6b6c738 - Updated rewards in 222ms
+[2m2025-06-04T22:56:27.665505Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 3ddc2bfa-2bde-455b-b64a-10a3e6b6c738 - Adding submissions
+[2m2025-06-04T22:56:27.665537Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 3ddc2bfa-2bde-455b-b64a-10a3e6b6c738 - Submissions batch size: 3
+[2m2025-06-04T22:56:27.667148Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Submissions inserted: 3
+[2m2025-06-04T22:56:27.869487Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 3ddc2bfa-2bde-455b-b64a-10a3e6b6c738 - Successfully added submissions batch
+[2m2025-06-04T22:56:27.869545Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 3ddc2bfa-2bde-455b-b64a-10a3e6b6c738 - Added submissions in 204ms
+[2m2025-06-04T22:56:28.371644Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 3ddc2bfa-2bde-455b-b64a-10a3e6b6c738 - Updating pool rewards
+[2m2025-06-04T22:56:28.371693Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updating pool rewards for GKpHFpcA9xjiaxkJM1UXogSgUrHiDaENzKqqEtj3ae1P with 61952 bitz
+[2m2025-06-04T22:56:28.381926Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Successfully updated pool rewards
+[2m2025-06-04T22:56:28.381962Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 3ddc2bfa-2bde-455b-b64a-10a3e6b6c738 - Updated pool rewards in 10ms
+[2m2025-06-04T22:56:28.584060Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 3ddc2bfa-2bde-455b-b64a-10a3e6b6c738 - Updating challenge rewards
+[2m2025-06-04T22:56:28.600231Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updated challenge rewards!
+[2m2025-06-04T22:56:28.600574Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 3ddc2bfa-2bde-455b-b64a-10a3e6b6c738 - Updated challenge rewards in 16ms
+[2m2025-06-04T22:56:28.600585Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 3ddc2bfa-2bde-455b-b64a-10a3e6b6c738 - Finished processing internal mine success for challenge: t10SWS5IpMwMDxYvtLAASkcUqe9JVC7eSpsQzocfbF8=
+[2m2025-06-04T22:56:29.999131Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m App pongs length: 3
+[2m2025-06-04T22:57:10.359421Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Submission window closed.
+[2m2025-06-04T22:57:10.360919Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Starting mine submission attempt 0 with difficulty 13.
+[2m2025-06-04T22:57:10.361176Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Submission Challenge: Zq7m8jBOhCiLiVhaK/ATpquiOqTIVbKsJiRkjtAL3KA=
+[2m2025-06-04T22:57:10.361484Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Getting latest config and busses data.
+[2m2025-06-04T22:57:11.990971Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Latest Challenge: Zq7m8jBOhCiLiVhaK/ATpquiOqTIVbKsJiRkjtAL3KA=
+[2m2025-06-04T22:57:11.991337Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Including reset tx.
+[2m2025-06-04T22:57:11.991346Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m using priority fee of 50000
+[2m2025-06-04T22:57:11.991414Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m built ixs getting balances...
+[2m2025-06-04T22:57:12.377638Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Got block building tx...
+[2m2025-06-04T22:57:12.378580Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Sending signed tx...
+[2m2025-06-04T22:57:12.378602Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m attempt: 1
+[2m2025-06-04T22:57:13.262760Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Got new proof data
+[2m2025-06-04T22:57:13.262850Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Challenge: TwsMG2bfEJ+jQWEc+wCPv9PCvjw9Ybz9mYNQeV5gsWE=
+[2m2025-06-04T22:57:14.098824Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m SIG: 2xfVwEkC4NWathPxgANkrsScwFDq3Zf4mDMCZ8KhzmnPmzSsYUQ8iuV96vRqMMMpe8t8dAtFPSgiQHM3CkTaw4Ca
+[2m2025-06-04T22:57:14.343580Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74534161, confirmations: Some(3), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:57:14.702668Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Checking for proof hash update.
+[2m2025-06-04T22:57:14.702702Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Adding new challenge to db
+[2m2025-06-04T22:57:14.714282Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m New challenge successfully added to db
+[2m2025-06-04T22:57:14.714319Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m reset epoch hashes
+[2m2025-06-04T22:57:14.714325Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m openning submission window.
+[2m2025-06-04T22:57:15.001645Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m App pongs length: 3
+[2m2025-06-04T22:57:15.110933Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74534161, confirmations: Some(5), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:57:15.872913Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74534161, confirmations: Some(7), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:57:16.627221Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74534161, confirmations: Some(9), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:57:17.383878Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74534161, confirmations: Some(11), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:57:18.143687Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74534161, confirmations: Some(13), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:57:18.912411Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74534161, confirmations: Some(15), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:57:19.657429Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74534161, confirmations: Some(18), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:57:20.423060Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74534161, confirmations: Some(20), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:57:21.164698Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74534161, confirmations: Some(22), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:57:21.894481Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74534161, confirmations: Some(24), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:57:22.653168Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74534161, confirmations: Some(26), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:57:23.404636Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74534161, confirmations: Some(28), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:57:24.146334Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74534161, confirmations: Some(30), status: Ok(()), err: None, confirmation_status: Some(Confirmed) }
+[2m2025-06-04T22:57:24.990485Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Status: TransactionStatus { slot: 74534161, confirmations: None, status: Ok(()), err: None, confirmation_status: Some(Finalized) }
+[2m2025-06-04T22:57:24.990541Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Success!!
+[2m2025-06-04T22:57:24.990549Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Sig: 2xfVwEkC4NWathPxgANkrsScwFDq3Zf4mDMCZ8KhzmnPmzSsYUQ8iuV96vRqMMMpe8t8dAtFPSgiQHM3CkTaw4Ca
+[2m2025-06-04T22:57:24.990624Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Checking for proof hash update.
+[2m2025-06-04T22:57:24.990639Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Epoch hashes challenge already up to date!
+[2m2025-06-04T22:57:25.295603Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m MineEvent Global Boosts: MineEventWithGlobalBoosts { balance: 13044800, difficulty: 13, last_hash_at: 1749077771, timing: -4, net_reward: 7744, net_base_reward: 3872, net_miner_boost_reward: 0, net_staker_boost_reward: 3872 }
+[2m2025-06-04T22:57:25.295653Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m For Challenge: "Zq7m8jBOhCiLiVhaK/ATpquiOqTIVbKsJiRkjtAL3KA="
+[2m2025-06-04T22:57:25.297340Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updating commissions rewards...
+[2m2025-06-04T22:57:25.297424Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m e26d32a3-1c6a-4948-b603-3c2369c92cbf - Getting db pool connection.
+[2m2025-06-04T22:57:25.297539Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m e26d32a3-1c6a-4948-b603-3c2369c92cbf - Got db pool connection in 0ms.
+[2m2025-06-04T22:57:25.299841Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updated commissions rewards
+[2m2025-06-04T22:57:26.503913Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Sending internal mine success for challenge: Zq7m8jBOhCiLiVhaK/ATpquiOqTIVbKsJiRkjtAL3KA=
+[2m2025-06-04T22:57:26.503965Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 9d5dc7be-1bb4-493a-820e-442f159dc643 - Processing internal mine success for challenge: Zq7m8jBOhCiLiVhaK/ATpquiOqTIVbKsJiRkjtAL3KA=
+[2m2025-06-04T22:57:26.503969Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 9d5dc7be-1bb4-493a-820e-442f159dc643 - Getting sockets.
+[2m2025-06-04T22:57:26.503973Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 9d5dc7be-1bb4-493a-820e-442f159dc643 - Got sockets in 0.
+[2m2025-06-04T22:57:26.503975Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 9d5dc7be-1bb4-493a-820e-442f159dc643 - Processing submission results for challenge: Zq7m8jBOhCiLiVhaK/ATpquiOqTIVbKsJiRkjtAL3KA=.
+[2m2025-06-04T22:57:26.503977Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m total_balance_full: 0.000130448
+[2m2025-06-04T22:57:26.503980Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m total_rewards: 3679
+[2m2025-06-04T22:57:26.505314Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 9d5dc7be-1bb4-493a-820e-442f159dc643 - Finished processing submission results in 1ms for challenge: Zq7m8jBOhCiLiVhaK/ATpquiOqTIVbKsJiRkjtAL3KA=.
+[2m2025-06-04T22:57:26.505321Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 9d5dc7be-1bb4-493a-820e-442f159dc643 - Adding earnings
+[2m2025-06-04T22:57:26.507146Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Earnings inserted: 2
+[2m2025-06-04T22:57:26.708504Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 9d5dc7be-1bb4-493a-820e-442f159dc643 - Successfully added earnings batch
+[2m2025-06-04T22:57:26.708555Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 9d5dc7be-1bb4-493a-820e-442f159dc643 - Added earnings in 203ms
+[2m2025-06-04T22:57:27.210359Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 9d5dc7be-1bb4-493a-820e-442f159dc643 - Updating rewards
+[2m2025-06-04T22:57:27.210417Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 9d5dc7be-1bb4-493a-820e-442f159dc643 - Updating reward batch 1
+[2m2025-06-04T22:57:27.210442Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m b70090df-cfc2-4c80-9820-610b7a3ab1bc - Getting db pool connection.
+[2m2025-06-04T22:57:27.210523Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m b70090df-cfc2-4c80-9820-610b7a3ab1bc - Got db pool connection in 0ms.
+[2m2025-06-04T22:57:27.213238Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 9d5dc7be-1bb4-493a-820e-442f159dc643 - Updated reward batch 1 in 2ms
+[2m2025-06-04T22:57:27.414489Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 9d5dc7be-1bb4-493a-820e-442f159dc643 - Successfully updated rewards
+[2m2025-06-04T22:57:27.414548Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 9d5dc7be-1bb4-493a-820e-442f159dc643 - Updated rewards in 204ms
+[2m2025-06-04T22:57:27.917258Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 9d5dc7be-1bb4-493a-820e-442f159dc643 - Adding submissions
+[2m2025-06-04T22:57:27.917312Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 9d5dc7be-1bb4-493a-820e-442f159dc643 - Submissions batch size: 2
+[2m2025-06-04T22:57:27.919097Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Submissions inserted: 2
+[2m2025-06-04T22:57:28.121114Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 9d5dc7be-1bb4-493a-820e-442f159dc643 - Successfully added submissions batch
+[2m2025-06-04T22:57:28.121171Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 9d5dc7be-1bb4-493a-820e-442f159dc643 - Added submissions in 203ms
+[2m2025-06-04T22:57:28.623398Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 9d5dc7be-1bb4-493a-820e-442f159dc643 - Updating pool rewards
+[2m2025-06-04T22:57:28.623464Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updating pool rewards for GKpHFpcA9xjiaxkJM1UXogSgUrHiDaENzKqqEtj3ae1P with 3872 bitz
+[2m2025-06-04T22:57:28.626402Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Successfully updated pool rewards
+[2m2025-06-04T22:57:28.626439Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 9d5dc7be-1bb4-493a-820e-442f159dc643 - Updated pool rewards in 3ms
+[2m2025-06-04T22:57:28.827626Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 9d5dc7be-1bb4-493a-820e-442f159dc643 - Updating challenge rewards
+[2m2025-06-04T22:57:28.829721Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Updated challenge rewards!
+[2m2025-06-04T22:57:28.829744Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 9d5dc7be-1bb4-493a-820e-442f159dc643 - Updated challenge rewards in 2ms
+[2m2025-06-04T22:57:28.829750Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m 9d5dc7be-1bb4-493a-820e-442f159dc643 - Finished processing internal mine success for challenge: Zq7m8jBOhCiLiVhaK/ATpquiOqTIVbKsJiRkjtAL3KA=
+[2m2025-06-04T22:58:00.007670Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m App pongs length: 3
+[2m2025-06-04T22:58:11.587485Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:12.589235Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:13.591862Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:14.593730Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:15.595445Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:16.597963Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:17.600175Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:18.602697Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:19.605003Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:20.607425Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:21.609989Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:22.611996Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:23.614231Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:24.615573Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:25.617615Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:26.619927Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:27.621370Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:28.624056Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:29.626931Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:30.627736Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:31.628924Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:32.631163Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:33.633470Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:34.635737Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:35.638069Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:36.641035Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:37.641816Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:38.644200Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:39.646583Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:40.648190Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:41.650575Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:42.652900Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:43.653732Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:44.655561Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:45.012328Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m App pongs length: 0
+[2m2025-06-04T22:58:45.658135Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:46.660418Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:47.663057Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:48.663577Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:49.665657Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:50.667906Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:51.669807Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:52.672180Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:53.673805Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:54.675592Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:55.677887Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:56.679269Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:57.681708Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T22:58:58.684173Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:25.964740Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m establishing rpc connection...
+[2m2025-06-04T23:00:25.974721Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Getting latest blockhash.
+[2m2025-06-04T23:00:27.210292Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m loading eth balance...
+[2m2025-06-04T23:00:27.617377Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Balance: 0.00
+[2m2025-06-04T23:00:28.022240Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Validating pool exists in db
+[2m2025-06-04T23:00:28.140725Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Validating commissions receiver is in db
+[2m2025-06-04T23:00:28.142133Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Found commissions receiver in db.
+[2m2025-06-04T23:00:28.142475Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Validating current challenge for pool exists in db
+[2m2025-06-04T23:00:28.143382Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m App pongs length: 0
+[2m2025-06-04T23:00:28.143401Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m handle ready clients system started!
+[2m2025-06-04T23:00:28.143543Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Establishing rpc websocket connection...
+[2m2025-06-04T23:00:28.143863Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:28.144230Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m listening on 0.0.0.0:3105
+[2m2025-06-04T23:00:29.145219Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:29.159740Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m RPC WS connection established!
+[2m2025-06-04T23:00:29.461607Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m Tracking pool proof updates with websocket
+[2m2025-06-04T23:00:30.146709Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:31.148490Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:32.148959Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:33.151542Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:34.153328Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:35.154953Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:36.157358Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:37.159596Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:38.161079Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:39.163483Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:40.165563Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:41.167298Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:42.169494Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:43.171542Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:44.173146Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:45.175712Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:46.176872Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:47.179051Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:48.181445Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:49.183584Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:50.184820Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:51.186661Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:52.188879Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:53.190883Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:53.548220Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m get_miner_rewards endpoint: failed to get rewards balance from db for 7quEeAYjHqXsrR5MNRtsLKz3vfZL7CtoaLjpaFotqaFu
+[2m2025-06-04T23:00:54.192855Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:55.194631Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:56.197162Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:57.199443Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:58.201064Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:00:59.202299Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:01:00.204516Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:01:01.206212Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:01:02.208673Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:01:03.211218Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:01:04.212268Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:01:05.214386Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:01:06.216815Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:01:07.217433Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:01:08.219997Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:01:09.222041Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:01:10.224056Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:01:10.773108Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m get_miner_rewards endpoint: failed to get rewards balance from db for AjeqFz1Hjrzu2h6jjRz7PLCR7jU1JMVqLWnYytPQkxHp
+[2m2025-06-04T23:01:11.225590Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:01:12.227911Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:01:13.145068Z[0m [32m INFO[0m [2mserver_log[0m[2m:[0m App pongs length: 0
+[2m2025-06-04T23:01:13.229134Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:01:13.922490Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m get_miner_rewards endpoint: failed to get rewards balance from db for AjeqFz1Hjrzu2h6jjRz7PLCR7jU1JMVqLWnYytPQkxHp
+[2m2025-06-04T23:01:14.231099Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:01:15.232376Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:01:16.238582Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:01:17.240524Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:01:18.242602Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:01:19.244723Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:01:20.246502Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:01:21.248661Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:01:22.251424Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:01:23.253989Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:01:24.255890Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:01:25.258285Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:01:26.259249Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
+[2m2025-06-04T23:01:27.260389Z[0m [31mERROR[0m [2mserver_log[0m[2m:[0m No best solution yet.
