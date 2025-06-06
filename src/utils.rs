@@ -44,6 +44,7 @@ pub fn create_router() -> Router<Arc<RwLock<AppState>>> {
         //.route("/stake", post(post_stake))
         //.route("/unstake", post(post_unstake))
         .route("/high-difficulty", get(get_high_difficulty))
+        .route("/hashpower", get(get_hashpower))
         .route("/active-miners", get(get_connected_miners))
         .route("/timestamp", get(get_timestamp))
         .route("/miner/earnings", get(get_miner_earnings))
@@ -755,6 +756,24 @@ async fn get_high_difficulty(
     match res {
         Ok(high_diff) => Ok(Json(high_diff)),
         Err(_) => Err("Failed to get difficulty for miner".to_string()),
+    }
+}
+
+async fn get_hashpower(
+    query_params: Query<ConnectedMinersParams>,
+    Extension(app_rr_database): Extension<Arc<AppRRDatabase>>,
+) -> impl IntoResponse {
+    let pubkey = query_params.pubkey.clone().unwrap_or_default();
+
+    let res = app_rr_database
+        .get_hashpower(
+            pubkey,
+        )
+        .await;
+
+    match res {
+        Ok(high_diff) => Ok(Json(high_diff)),
+        Err(_) => Err("Failed to get hashpower for miner".to_string()),
     }
 }
 

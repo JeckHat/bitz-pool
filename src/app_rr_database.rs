@@ -155,6 +155,60 @@ impl AppRRDatabase {
         }
     }
 
+    pub async fn get_hashpower(
+        &self,
+        pubkey: String,
+    ) -> Result<models::Hashpower, AppDatabaseError> {
+        if let Ok(db_conn) = self.connection_pool.get().await {
+            let mut sql_query = "
+                    SELECT sum(80 * POW(2, e.difficulty - 12)) as hashpower
+                    FROM earnings e
+                    WHERE e.challenge_id  = (
+                        SELECT c.id
+                        FROM challenges c
+                        ORDER BY c.id DESC
+                        LIMIT 1 OFFSET 1
+                    )
+                ";
+            if !pubkey.is_empty() {
+                sql_query = "
+                    SELECT sum(80 * POW(2, e.difficulty - 12)) as hashpower
+                    FROM earnings e
+                    JOIN miners m
+                    ON m.id = e.miner_id
+                    WHERE e.challenge_id  = (
+                        SELECT c.id
+                        FROM challenges c
+                        ORDER BY c.id DESC
+                        LIMIT 1 OFFSET 1
+                    )
+                    AND m.pubkey = ?
+                ";
+            }
+            let res = db_conn
+                .interact(move |conn: &mut MysqlConnection| {
+                    diesel::sql_query(sql_query)
+                    .bind::<Text, _>(pubkey)
+                    .get_result::<models::Hashpower>(conn)
+                })
+                .await;
+    
+            match res {
+                Ok(Ok(query)) => Ok(query),
+                Ok(Err(e)) => {
+                    error!(target: "server_log", "DB error: {:?}", e);
+                    Err(AppDatabaseError::QueryFailed)
+                }
+                Err(e) => {
+                    error!(target: "server_log", "Interaction error: {:?}", e);
+                    Err(AppDatabaseError::InteractionFailed)
+                }
+            }
+        } else {
+            Err(AppDatabaseError::FailedToGetConnectionFromPool)
+        }
+    }
+
     pub async fn get_last_claim_by_pubkey(
         &self,
         pubkey: String,
