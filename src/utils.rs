@@ -43,6 +43,7 @@ pub fn create_router() -> Router<Arc<RwLock<AppState>>> {
         // .route("/v2/claim-all", post(post_claim_all_v2))
         //.route("/stake", post(post_stake))
         //.route("/unstake", post(post_unstake))
+        .route("/high-difficulty", get(get_high_difficulty))
         .route("/active-miners", get(get_connected_miners))
         .route("/timestamp", get(get_timestamp))
         .route("/miner/earnings", get(get_miner_earnings))
@@ -736,6 +737,24 @@ async fn get_connected_miners(
             .status(StatusCode::OK)
             .body(socks.len().to_string())
             .unwrap();
+    }
+}
+
+async fn get_high_difficulty(
+    query_params: Query<ConnectedMinersParams>,
+    Extension(app_rr_database): Extension<Arc<AppRRDatabase>>,
+) -> impl IntoResponse {
+    let pubkey = query_params.pubkey.clone().unwrap_or_default();
+
+    let res = app_rr_database
+        .get_high_difficulty(
+            pubkey,
+        )
+        .await;
+
+    match res {
+        Ok(high_diff) => Ok(Json(high_diff)),
+        Err(_) => Err("Failed to get difficulty for miner".to_string()),
     }
 }
 

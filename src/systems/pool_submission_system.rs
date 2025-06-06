@@ -30,13 +30,6 @@ use crate::{
     }, models::{InsertChallenge, InsertTxn, UpdateReward}, Config, EpochHashes, MessageInternalAllClients, MessageInternalMineSuccess, SubmissionWindow, WalletExtension
 };
 
-#[derive(Debug)]
-struct BundleStatus {
-    confirmation_status: Option<String>,
-    err: Option<serde_json::Value>,
-    transactions: Option<Vec<String>>,
-}
-
 pub async fn pool_submission_system(
     app_proof: Arc<Mutex<Proof>>,
     app_epoch_hashes: Arc<RwLock<EpochHashes>>,

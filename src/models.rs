@@ -242,3 +242,8 @@ pub struct EarningWithChallengeWithSubmission {
     pub total_rewards_earned: Option<u64>,
 }
 
+#[derive(Debug, Serialize, Deserialize, QueryableByName)]
+pub struct HighDifficulty {
+    #[diesel(sql_type = TinyInt)]
+    pub high_difficulty: i8,
+}

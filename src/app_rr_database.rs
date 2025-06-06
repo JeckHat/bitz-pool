@@ -107,6 +107,43 @@ impl AppRRDatabase {
         };
     }
 
+    pub async fn get_high_difficulty(
+        &self,
+        pubkey: String,
+    ) -> Result<models::HighDifficulty, AppDatabaseError> {
+        if let Ok(db_conn) = self.connection_pool.get().await {
+            let sql_query = 
+                "SELECT MAX(e.difficulty) as high_difficulty
+                        FROM earnings e 
+                        WHERE DATE(created_at) = DATE(NOW())
+                        ORDER BY e.difficulty DESC
+                        LIMIT 1;";
+            if !pubkey.is_empty() {
+
+            }
+            let res = db_conn
+                .interact(move |conn: &mut MysqlConnection| {
+                    diesel::sql_query(sql_query)
+                    .get_result::<models::HighDifficulty>(conn)
+                })
+                .await;
+    
+            match res {
+                Ok(Ok(query)) => Ok(query),
+                Ok(Err(e)) => {
+                    error!(target: "server_log", "DB error: {:?}", e);
+                    Err(AppDatabaseError::QueryFailed)
+                }
+                Err(e) => {
+                    error!(target: "server_log", "Interaction error: {:?}", e);
+                    Err(AppDatabaseError::InteractionFailed)
+                }
+            }
+        } else {
+            Err(AppDatabaseError::FailedToGetConnectionFromPool)
+        }
+    }
+
     pub async fn get_last_claim_by_pubkey(
         &self,
         pubkey: String,
