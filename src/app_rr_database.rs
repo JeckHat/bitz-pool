@@ -112,18 +112,29 @@ impl AppRRDatabase {
         pubkey: String,
     ) -> Result<models::HighDifficulty, AppDatabaseError> {
         if let Ok(db_conn) = self.connection_pool.get().await {
-            let sql_query = 
-                "SELECT MAX(e.difficulty) as high_difficulty
-                        FROM earnings e 
-                        WHERE DATE(created_at) = DATE(NOW())
-                        ORDER BY e.difficulty DESC
-                        LIMIT 1;";
+            let mut sql_query = "
+                    SELECT MAX(e.difficulty) as high_difficulty
+                    FROM earnings e 
+                    WHERE DATE(created_at) = DATE(NOW())
+                    ORDER BY e.difficulty DESC
+                    LIMIT 1;
+                ";
             if !pubkey.is_empty() {
-
+                sql_query = "
+                    SELECT MAX(e.difficulty) as high_difficulty
+                    FROM earnings e 
+                    JOIN miners m
+                    ON m.id = e.miner_id 
+                    WHERE DATE(created_at) = DATE(NOW())
+                    AND m.pubkey = ?
+                    ORDER BY e.difficulty DESC
+                    LIMIT 1;
+                ";
             }
             let res = db_conn
                 .interact(move |conn: &mut MysqlConnection| {
                     diesel::sql_query(sql_query)
+                    .bind::<Text, _>(pubkey)
                     .get_result::<models::HighDifficulty>(conn)
                 })
                 .await;
