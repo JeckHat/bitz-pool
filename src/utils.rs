@@ -39,8 +39,10 @@ pub fn create_router() -> Router<Arc<RwLock<AppState>>> {
         .route("/v2/signup", post(post_signup_v2))
         // .route("/signup-fee", get(get_signup_fee))
         // .route("/sol-balance", get(get_sol_balance))
+        .route("/v2/confirmation-claim", post(confirmation_claim))
+        .route("/v2/claim-direct", post(claim_direct))
         .route("/v2/claim", post(post_claim_v2))
-        // .route("/v2/claim-all", post(post_claim_all_v2))
+        
         //.route("/stake", post(post_stake))
         //.route("/unstake", post(post_unstake))
         .route("/high-difficulty", get(get_high_difficulty))
@@ -545,6 +547,106 @@ struct ClaimParamsV2 {
     timestamp: u64,
     receiver_pubkey: String,
     amount: u64,
+}
+
+#[derive(Deserialize)]
+struct ClaimRequest {
+    pubkey: String,
+    // amount: u64,
+}
+
+async fn confirmation_claim(
+    query_params: Query<ClaimRequest>,
+    Extension(app_database): Extension<Arc<AppRRDatabase>>,
+    Extension(rpc_client): Extension<Arc<RpcClient>>,
+) -> impl IntoResponse {
+    let pubkey = match Pubkey::from_str(&query_params.pubkey) {
+        Ok(pk) => pk,
+        Err(_) => return Err((StatusCode::BAD_REQUEST, "Invalid pubkey".to_string())),
+    };
+
+    let miner_rewards = app_database.get_miner_rewards(pubkey.to_string()).await
+        .map_err(|_| (StatusCode::INTERNAL_SERVER_ERROR, "Failed to get rewards".to_string()))?;
+
+    let bitz_mint = get_bitz_mint();
+    let receiver_token_account = get_associated_token_address(&pubkey, &bitz_mint);
+
+    let ata_status = rpc_client.get_token_account_balance(&receiver_token_account).await;
+
+    let ata_exists = ata_status.is_ok();
+
+    let result = serde_json::json!({
+        "balance": miner_rewards.balance,
+        "requires_ata_creation": !ata_exists,
+    });
+
+    Ok((StatusCode::OK, Json(result)))
+}
+
+async fn claim_direct(
+    query_params: Query<ClaimRequest>,
+    Extension(app_database): Extension<Arc<AppDatabase>>,
+    Extension(rpc_client): Extension<Arc<RpcClient>>,
+    Extension(claims_queue): Extension<Arc<ClaimsQueue>>,
+) -> impl IntoResponse {
+    let pubkey = match Pubkey::from_str(&query_params.pubkey) {
+        Ok(pk) => pk,
+        Err(_) => return Err((StatusCode::BAD_REQUEST, "Invalid pubkey".to_string())),
+    };
+
+    let miner_rewards = app_database
+        .get_miner_rewards(pubkey.to_string())
+        .await
+        .map_err(|_| (StatusCode::NOT_FOUND, "Miner not found".to_string()))?;
+
+    if miner_rewards.balance < 5_000_000_000 {
+        return Err((
+            StatusCode::BAD_REQUEST,
+            "Minimum claim is 0.05 BITZ".to_string(),
+        ));
+    }
+
+    if let Ok(last_claim) = app_database.get_last_claim(miner_rewards.miner_id).await {
+        let now = chrono::Utc::now().timestamp();
+        if now - last_claim.created_at.and_utc().timestamp() <= 1800 {
+            return Err((
+                StatusCode::TOO_MANY_REQUESTS,
+                "Cooldown not finished".to_string(),
+            ));
+        }
+    }
+
+    let bitz_mint = get_bitz_mint();
+    let receiver_token_account = get_associated_token_address(&pubkey, &bitz_mint);
+
+    let is_creating_ata = rpc_client
+        .get_token_account_balance(&receiver_token_account)
+        .await
+        .is_err();
+
+    let mut claim_amount = miner_rewards.balance;
+    if is_creating_ata {
+        if claim_amount >= 2_000_000_000 {
+            claim_amount -= 2_000_000_000;
+        } else {
+            return Err((
+                StatusCode::BAD_REQUEST,
+                "Not enough BITZ to cover ATA creation".to_string(),
+            ));
+        }
+    }
+
+    let mut writer = claims_queue.queue.write().await;
+    writer.insert(
+        pubkey,
+        ClaimsQueueItem {
+            receiver_pubkey: pubkey,
+            amount: claim_amount,
+        },
+    );
+    drop(writer);
+
+    Ok((StatusCode::OK, "Claim submitted"))
 }
 
 async fn post_claim_v2(
