@@ -144,7 +144,7 @@ pub async fn pool_mine_success_system(
                                             .await
                                         {
                                         } else {
-                                            tracing::error!(target: "server_log", "Failed to send client pool submission result binary message");
+                                            error!(target: "server_log", "Failed to send client pool submission result binary message");
                                         }
                                     });
                                 }
@@ -162,7 +162,7 @@ pub async fn pool_mine_success_system(
                     for batch in i_earnings.chunks(batch_size) {
                         while let Err(_) = app_database.add_new_earnings_batch(batch.to_vec()).await
                         {
-                            tracing::error!(target: "server_log", "{} - Failed to add new earnings batch to db. Retrying...", id);
+                            error!(target: "server_log", "{} - Failed to add new earnings batch to db. Retrying...", id);
                             tokio::time::sleep(Duration::from_millis(500)).await;
                         }
                         tokio::time::sleep(Duration::from_millis(200)).await;
@@ -181,7 +181,7 @@ pub async fn pool_mine_success_system(
                         let instant = Instant::now();
                         info!(target: "server_log", "{} - Updating reward batch {}", id, batch_num);
                         while let Err(_) = app_database.update_rewards(batch.to_vec()).await {
-                            tracing::error!(target: "server_log", "{} - Failed to update rewards in db. Retrying...", id);
+                            error!(target: "server_log", "{} - Failed to update rewards in db. Retrying...", id);
                             tokio::time::sleep(Duration::from_millis(500)).await;
                         }
                         info!(target: "server_log", "{} - Updated reward batch {} in {}ms", id, batch_num, instant.elapsed().as_millis());
@@ -202,7 +202,7 @@ pub async fn pool_mine_success_system(
                         while let Err(_) =
                             app_database.add_new_submissions_batch(batch.to_vec()).await
                         {
-                            tracing::error!(target: "server_log", "{} - Failed to add new submissions batch. Retrying...", id);
+                            error!(target: "server_log", "{} - Failed to add new submissions batch. Retrying...", id);
                             tokio::time::sleep(Duration::from_millis(500)).await;
                         }
                         tokio::time::sleep(Duration::from_millis(200)).await;
@@ -223,7 +223,7 @@ pub async fn pool_mine_success_system(
                     )
                     .await
                 {
-                    tracing::error!(target: "server_log",
+                    error!(target: "server_log",
                         "{} - Failed to update pool rewards! Retrying...", id
                     );
                     tokio::time::sleep(Duration::from_millis(1000)).await;
@@ -246,14 +246,14 @@ pub async fn pool_mine_success_system(
                         )
                         .await
                     {
-                        tracing::error!(target: "server_log", "{} - Failed to update challenge rewards! Skipping! Devs check!", id);
+                        error!(target: "server_log", "{} - Failed to update challenge rewards! Skipping! Devs check!", id);
                         let err_str = format!("{} - Challenge UPDATE FAILED - Challenge: {:?}\nSubmission ID: {}\nRewards BITZ: {}\n", id, msg.challenge.to_vec(), s, msg.rewards);
-                        tracing::error!(target: "server_log", err_str);
+                        error!(target: "server_log", err_str);
                     }
                     info!(target: "server_log", "{} - Updated challenge rewards in {}ms", id, instant.elapsed().as_millis());
                 } else {
-                    tracing::error!(target: "server_log", "{} - Failed to get submission id with nonce: {} for challenge_id: {}", id, msg.best_nonce, msg.challenge_id);
-                    tracing::error!(target: "server_log", "{} - Failed update challenge rewards!", id);
+                    error!(target: "server_log", "{} - Failed to get submission id with nonce: {} for challenge_id: {}", id, msg.best_nonce, msg.challenge_id);
+                    error!(target: "server_log", "{} - Failed update challenge rewards!", id);
                     let mut found_best_nonce = false;
                     for submission in i_submissions {
                         if submission.nonce == msg.best_nonce {

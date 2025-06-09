@@ -115,7 +115,7 @@ impl AppRRDatabase {
             let mut sql_query = "
                     SELECT MAX(e.difficulty) as high_difficulty
                     FROM earnings e 
-                    WHERE DATE(created_at) = DATE(NOW())
+                    WHERE DATE(e.created_at) = DATE(NOW())
                     ORDER BY e.difficulty DESC
                     LIMIT 1;
                 ";
@@ -125,7 +125,7 @@ impl AppRRDatabase {
                     FROM earnings e 
                     JOIN miners m
                     ON m.id = e.miner_id 
-                    WHERE DATE(created_at) = DATE(NOW())
+                    WHERE DATE(e.created_at) = DATE(NOW())
                     AND m.pubkey = ?
                     ORDER BY e.difficulty DESC
                     LIMIT 1;

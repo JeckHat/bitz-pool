@@ -250,6 +250,6 @@ pub struct HighDifficulty {
 
 #[derive(Debug, Serialize, Deserialize, QueryableByName)]
 pub struct Hashpower {
-    #[diesel(sql_type = TinyInt)]
-    pub hashpower: i8,
+    #[diesel(sql_type = Unsigned<BigInt>)]
+    pub hashpower: u64,
 }

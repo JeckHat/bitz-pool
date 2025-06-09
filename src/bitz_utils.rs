@@ -9,8 +9,7 @@ use eore_api::{
 };
 use solana_client::nonblocking::rpc_client::RpcClient;
 use solana_sdk::{account::ReadableAccount, instruction::Instruction, pubkey::Pubkey};
-use steel::{AccountDeserialize, ProgramError};
-use steel::event;
+use steel::{AccountDeserialize, event};
 
 pub const BITZ_TOKEN_DECIMALS: u8 = TOKEN_DECIMALS;
 

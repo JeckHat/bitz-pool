@@ -702,7 +702,7 @@ impl AppDatabase {
 
             match res {
                 Ok(interaction) => match interaction {
-                    Ok(query) => {
+                    Ok(_) => {
                         info!(target: "server_log", "Successfully updated pool rewards");
                         return Ok(());
                     }
