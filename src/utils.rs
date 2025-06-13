@@ -1027,7 +1027,7 @@ async fn get_earnings_with_challenge_and_submission_hours(
     query_params: Query<PubkeyParam>,
     Extension(app_rr_database): Extension<Arc<AppRRDatabase>>,
 ) -> impl IntoResponse {
-    info!(target: "server_log", "get_miner_earnings_for_submissions_day: {:?}", query_params.pubkey);
+    info!(target: "server_log", "get_miner_earnings_for_submissions_hours: {:?}", query_params.pubkey);
 
     if let Ok(user_pubkey) = Pubkey::from_str(&query_params.pubkey) {
         let res = app_rr_database

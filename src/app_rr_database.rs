@@ -262,15 +262,13 @@ impl AppRRDatabase {
                     e.miner_id,
                     e.challenge_id,
                     m.pubkey,
-                    e.amount_coal as miner_amount_coal,
-                    e.amount_ore as miner_amount_ore,
+                    e.amount as miner_amount,
                     cbd.best_difficulty,
                     e.difficulty as miner_difficulty,
                     ? * POW(2, e.difficulty - ?) as miner_hashpower,
                     ? * POW(2, cbd.best_difficulty - ?) as best_challenge_hashpower,
                     e.created_at,
-                    c.rewards_earned_coal as total_rewards_earned_coal,
-                    c.rewards_earned_ore as total_rewards_earned_ore
+                    c.rewards_earned as total_rewards_earned
                 FROM
                     earnings e
                 JOIN
@@ -336,15 +334,13 @@ impl AppRRDatabase {
                     e.miner_id,
                     e.challenge_id,
                     m.pubkey,
-                    e.amount_coal as miner_amount_coal,
-                    e.amount_ore as miner_amount_ore,
+                    e.amount as miner_amount,
                     cbd.best_difficulty,
                     e.difficulty as miner_difficulty,
                     ? * POW(2, e.difficulty - ?) as miner_hashpower,
                     ? * POW(2, cbd.best_difficulty - ?) as best_challenge_hashpower,
                     e.created_at,
-                    c.rewards_earned_coal as total_rewards_earned_coal,
-                    c.rewards_earned_ore as total_rewards_earned_ore
+                    c.rewards_earned as total_rewards_earned
                 FROM
                     earnings e
                 JOIN
