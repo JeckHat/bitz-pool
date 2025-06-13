@@ -122,7 +122,7 @@ pub async fn pool_submission_system(
                             let time_until_reset = (config.last_reset_at + 300) - now as i64;
                             if time_until_reset <= 5 {
                                 cu_limit = 625_000;
-                                prio_fee += 50_000;
+                                prio_fee += 10;
                                 info!(target: "server_log", "Including reset tx.");
                                 true
                             } else {

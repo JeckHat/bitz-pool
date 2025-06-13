@@ -50,6 +50,14 @@ pub fn create_router() -> Router<Arc<RwLock<AppState>>> {
         .route("/active-miners", get(get_connected_miners))
         .route("/timestamp", get(get_timestamp))
         .route("/miner/earnings", get(get_miner_earnings))
+        .route(
+            "/miner/earnings-submissions-day",
+            get(get_earnings_with_challenge_and_submission_day),
+        )
+        .route(
+            "/miner/earnings-submissions-hours",
+            get(get_earnings_with_challenge_and_submission_hours),
+        )
         // .route(
         //     "/miner/earnings-submissions",
         //     get(get_miner_earnings_for_submissions),
@@ -599,7 +607,7 @@ async fn claim_direct(
         .await
         .map_err(|_| (StatusCode::NOT_FOUND, "Miner not found".to_string()))?;
 
-    if miner_rewards.balance < 5_000_000_000 {
+    if miner_rewards.balance < 2_000_000_000 {
         return Err((
             StatusCode::BAD_REQUEST,
             "Minimum claim is 0.05 BITZ".to_string(),
@@ -699,7 +707,7 @@ async fn post_claim_v2(
 
                 let amount = query_params.amount;
 
-                if amount < 5_000_000_000 {
+                if amount < 2_000_000_000 {
                     return Err((
                         StatusCode::BAD_REQUEST,
                         "claim minimum is 0.05 BITZ".to_string(),
@@ -990,5 +998,49 @@ async fn get_miner_last_claim(
         }
     } else {
         return Err("Stats not enabled for this server.".to_string());
+    }
+}
+
+async fn get_earnings_with_challenge_and_submission_day(
+    query_params: Query<PubkeyParam>,
+    Extension(app_rr_database): Extension<Arc<AppRRDatabase>>,
+) -> impl IntoResponse {
+    info!(target: "server_log", "get_miner_earnings_for_submissions_day: {:?}", query_params.pubkey);
+
+    if let Ok(user_pubkey) = Pubkey::from_str(&query_params.pubkey) {
+        let res = app_rr_database
+            .get_earnings_with_challenge_and_submission_day(
+                user_pubkey.to_string()
+            )
+            .await;
+
+        match res {
+            Ok(earnings) => Ok(Json(earnings)),
+            Err(_) => Err("Failed to get earnings for miner".to_string()),
+        }
+    } else {
+        return Err("Invalid public key".to_string());
+    }
+}
+
+async fn get_earnings_with_challenge_and_submission_hours(
+    query_params: Query<PubkeyParam>,
+    Extension(app_rr_database): Extension<Arc<AppRRDatabase>>,
+) -> impl IntoResponse {
+    info!(target: "server_log", "get_miner_earnings_for_submissions_day: {:?}", query_params.pubkey);
+
+    if let Ok(user_pubkey) = Pubkey::from_str(&query_params.pubkey) {
+        let res = app_rr_database
+            .get_earnings_with_challenge_and_submission_hours(
+                user_pubkey.to_string()
+            )
+            .await;
+
+        match res {
+            Ok(earnings) => Ok(Json(earnings)),
+            Err(_) => Err("Failed to get earnings for miner".to_string()),
+        }
+    } else {
+        return Err("Invalid public key".to_string());
     }
 }

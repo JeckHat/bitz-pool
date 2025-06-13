@@ -616,7 +616,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     });
 
     let cors = CorsLayer::new()
-        .allow_methods([Method::GET])
+        .allow_methods([Method::GET, Method::POST])
         .allow_origin(tower_http::cors::Any);
 
     let client_channel = client_message_sender.clone();

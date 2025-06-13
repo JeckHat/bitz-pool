@@ -1,8 +1,8 @@
 use chrono::NaiveDateTime;
 use deadpool_diesel::mysql::{Manager, Pool};
-use diesel::{sql_types::{Datetime, Text}, MysqlConnection, RunQueryDsl};
+use diesel::{sql_types::{BigInt, Datetime, Integer, Text}, MysqlConnection, RunQueryDsl};
 
-use crate::{app_database::AppDatabaseError, models};
+use crate::{app_database::AppDatabaseError, models, MIN_DIFF, MIN_HASHPOWER};
 use tracing::error;
 
 
@@ -167,7 +167,7 @@ impl AppRRDatabase {
                         SELECT c.id
                         FROM challenges c
                         ORDER BY c.id DESC
-                        LIMIT 1 OFFSET 1
+                        LIMIT 1 OFFSET 2
                     )
                 ";
             if !pubkey.is_empty() {
@@ -180,7 +180,7 @@ impl AppRRDatabase {
                         SELECT c.id
                         FROM challenges c
                         ORDER BY c.id DESC
-                        LIMIT 1 OFFSET 1
+                        LIMIT 1 OFFSET 2
                     )
                     AND m.pubkey = ?
                 ";
@@ -240,6 +240,154 @@ impl AppRRDatabase {
         } else {
             return Err(AppDatabaseError::FailedToGetConnectionFromPool);
         };
+    }
+
+    pub async fn get_earnings_with_challenge_and_submission_day(
+        &self,
+        pubkey: String
+    ) -> Result<Vec<models::EarningWithChallengeWithSubmission>, AppDatabaseError> {
+        if let Ok(db_conn) = self.connection_pool.get().await {
+            let res = db_conn
+                .interact(move |conn: &mut MysqlConnection| {
+                    diesel::sql_query(
+                        "
+                WITH challenge_best_difficulty AS (
+                    SELECT challenge_id, MAX(difficulty) as best_difficulty
+                    FROM earnings
+                    WHERE created_at >= NOW() - INTERVAL 1 DAY
+                        AND challenge_id != -1
+                    GROUP BY challenge_id
+                )
+                SELECT
+                    e.miner_id,
+                    e.challenge_id,
+                    m.pubkey,
+                    e.amount_coal as miner_amount_coal,
+                    e.amount_ore as miner_amount_ore,
+                    cbd.best_difficulty,
+                    e.difficulty as miner_difficulty,
+                    ? * POW(2, e.difficulty - ?) as miner_hashpower,
+                    ? * POW(2, cbd.best_difficulty - ?) as best_challenge_hashpower,
+                    e.created_at,
+                    c.rewards_earned_coal as total_rewards_earned_coal,
+                    c.rewards_earned_ore as total_rewards_earned_ore
+                FROM
+                    earnings e
+                JOIN
+                    miners m ON e.miner_id = m.id
+                JOIN
+                    challenges c ON e.challenge_id = c.id
+                JOIN
+                    challenge_best_difficulty cbd ON e.challenge_id = cbd.challenge_id
+                WHERE
+                    m.pubkey = ?
+                    AND e.created_at >= NOW() - INTERVAL 1 DAY
+                    AND e.challenge_id != -1
+                ORDER BY
+                    e.created_at DESC
+                ",
+                    )
+                    .bind::<BigInt, _>(MIN_HASHPOWER as i64)
+                    .bind::<Integer, _>(MIN_DIFF as i32)
+                    .bind::<BigInt, _>(MIN_HASHPOWER as i64)
+                    .bind::<Integer, _>(MIN_DIFF as i32)
+                    .bind::<Text, _>(pubkey)
+                    .get_results::<models::EarningWithChallengeWithSubmission>(conn)
+                })
+                .await;
+
+            match res {
+                Ok(interaction) => match interaction {
+                    Ok(query) => {
+                        return Ok(query);
+                    }
+                    Err(e) => {
+                        error!("get_earnings_with_challenge_and_submission: {:?}", e);
+                        return Err(AppDatabaseError::QueryFailed);
+                    }
+                },
+                Err(e) => {
+                    error!("get_earnings_with_challenge_and_submission {:?}", e);
+                    return Err(AppDatabaseError::InteractionFailed);
+                }
+            }
+        } else {
+            return Err(AppDatabaseError::FailedToGetConnectionFromPool);
+        }
+    }
+
+    pub async fn get_earnings_with_challenge_and_submission_hours(
+        &self,
+        pubkey: String
+    ) -> Result<Vec<models::EarningWithChallengeWithSubmission>, AppDatabaseError> {
+        if let Ok(db_conn) = self.connection_pool.get().await {
+            let res = db_conn
+                .interact(move |conn: &mut MysqlConnection| {
+                    diesel::sql_query(
+                        "
+                WITH challenge_best_difficulty AS (
+                    SELECT challenge_id, MAX(difficulty) as best_difficulty
+                    FROM earnings
+                    WHERE created_at >= NOW() - INTERVAL 3 HOUR
+                        AND challenge_id != -1
+                    GROUP BY challenge_id
+                )
+                SELECT
+                    e.miner_id,
+                    e.challenge_id,
+                    m.pubkey,
+                    e.amount_coal as miner_amount_coal,
+                    e.amount_ore as miner_amount_ore,
+                    cbd.best_difficulty,
+                    e.difficulty as miner_difficulty,
+                    ? * POW(2, e.difficulty - ?) as miner_hashpower,
+                    ? * POW(2, cbd.best_difficulty - ?) as best_challenge_hashpower,
+                    e.created_at,
+                    c.rewards_earned_coal as total_rewards_earned_coal,
+                    c.rewards_earned_ore as total_rewards_earned_ore
+                FROM
+                    earnings e
+                JOIN
+                    miners m ON e.miner_id = m.id
+                JOIN
+                    challenges c ON e.challenge_id = c.id
+                JOIN
+                    challenge_best_difficulty cbd ON e.challenge_id = cbd.challenge_id
+                WHERE
+                    m.pubkey = ?
+                    AND e.created_at >= NOW() - INTERVAL 3 HOUR
+                    AND e.challenge_id != -1
+                ORDER BY
+                    e.created_at DESC
+                ",
+                    )
+                    .bind::<BigInt, _>(MIN_HASHPOWER as i64)
+                    .bind::<Integer, _>(MIN_DIFF as i32)
+                    .bind::<BigInt, _>(MIN_HASHPOWER as i64)
+                    .bind::<Integer, _>(MIN_DIFF as i32)
+                    .bind::<Text, _>(pubkey)
+                    .get_results::<models::EarningWithChallengeWithSubmission>(conn)
+                })
+                .await;
+
+            match res {
+                Ok(interaction) => match interaction {
+                    Ok(query) => {
+                        return Ok(query);
+                    }
+                    Err(e) => {
+                        error!("get_earnings_with_challenge_and_submission: {:?}", e);
+                        return Err(AppDatabaseError::QueryFailed);
+                    }
+                },
+                Err(e) => {
+                    error!("get_earnings_with_challenge_and_submission {:?}", e);
+                    return Err(AppDatabaseError::InteractionFailed);
+                }
+            }
+        } else {
+            return Err(AppDatabaseError::FailedToGetConnectionFromPool);
+        }
     }
 
 }
