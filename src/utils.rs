@@ -32,6 +32,7 @@ pub fn create_router() -> Router<Arc<RwLock<AppState>>> {
     Router::new()
         .route("/v2/ws", get(ws_handler_v2))
         .route("/v2/ws-pubkey", get(ws_handler_pubkey))
+        .route("/v3/ws-pubkey", get(ws_handler_pubkey_v3))
         //.route("/pause", post(post_pause))
         // .route( "/latest-blockhash", get(get_latest_blockhash))
         // .route("/pool/authority/pubkey", get(get_pool_authority_pubkey))
@@ -48,6 +49,7 @@ pub fn create_router() -> Router<Arc<RwLock<AppState>>> {
         .route("/high-difficulty", get(get_high_difficulty))
         .route("/hashpower", get(get_hashpower))
         .route("/active-miners", get(get_connected_miners))
+        .route("/v2/active-miners", get(get_connected_miners_v2))
         .route("/timestamp", get(get_timestamp))
         .route("/miner/earnings", get(get_miner_earnings))
         .route(
@@ -147,6 +149,8 @@ async fn ws_handler_v2(
         if let Ok(signature) = Signature::from_str(signed_msg) {
             let ts_msg = msg_timestamp.to_le_bytes();
 
+            let worker_name = String::from("-");
+
             if signature.verify(&user_pubkey.to_bytes(), &ts_msg) {
                 // info!(target: "server_log", "Client: {addr} connected with pubkey {pubkey} on V2.");
                 return Ok(ws.on_upgrade(move |socket| {
@@ -155,6 +159,7 @@ async fn ws_handler_v2(
                         addr,
                         user_pubkey,
                         miner.id,
+                        worker_name,
                         ClientVersion::V2,
                         app_state,
                         client_channel,
@@ -242,6 +247,8 @@ async fn ws_handler_pubkey(
             return Err((StatusCode::UNAUTHORIZED, "pubkey is not authorized to mine"));
         }
 
+        let worker_name = String::from("-");
+
         info!(target: "server_log", "Client: {addr} connected with pubkey {user_pubkey} on V2.");
         return Ok(ws.on_upgrade(move |socket| {
             handle_socket(
@@ -249,6 +256,99 @@ async fn ws_handler_pubkey(
                 addr,
                 user_pubkey,
                 miner.id,
+                worker_name,
+                ClientVersion::V2,
+                app_state,
+                client_channel,
+            )
+        }));
+    } else {
+        return Err((StatusCode::UNAUTHORIZED, "Invalid pubkey"));
+    }
+}
+
+#[derive(Deserialize)]
+struct WsPubkeyWorkerQueryParams {
+    timestamp: u64,
+    pubkey: String,
+    worker_name: String
+}
+
+async fn ws_handler_pubkey_v3(
+    ws: WebSocketUpgrade,
+    ConnectInfo(addr): ConnectInfo<SocketAddr>,
+    State(app_state): State<Arc<RwLock<AppState>>>,
+    Extension(client_channel): Extension<UnboundedSender<ClientMessage>>,
+    Extension(app_database): Extension<Arc<AppDatabase>>,
+    Extension(app_wallet): Extension<Arc<WalletExtension>>,
+    query_params: Query<WsPubkeyWorkerQueryParams>,
+) -> impl IntoResponse {
+    // info!(target:"server_log", "New WebSocket connection from: {:?}", addr);
+
+    let now = SystemTime::now()
+        .duration_since(UNIX_EPOCH)
+        .expect("Time went backwards")
+        .as_secs();
+
+    // Signed authentication message is only valid for 30 seconds
+    if (now - query_params.timestamp) >= 30 {
+        return Err((StatusCode::UNAUTHORIZED, "Timestamp too old."));
+    }
+
+    // verify client
+    if let Ok(user_pubkey) = Pubkey::from_str(&query_params.pubkey) {
+        let db_miner = app_database
+            .get_miner_by_pubkey_str(user_pubkey.to_string())
+            .await;
+
+        let miner;
+        match db_miner {
+            Ok(db_miner) => {
+                miner = db_miner;
+            }
+            Err(_) => {
+                error!(target: "server_log", "ws_handler_pubkey DB Error: Catch all.");
+                while let Err(_) = app_database
+                    .signup_user_transaction(
+                        user_pubkey.to_string(),
+                        app_wallet.miner_wallet.pubkey().to_string(),
+                    )
+                    .await
+                {
+                    tracing::error!(target: "server_log", "ws_handler_pubkey: Failed to signup user. Retrying...");
+                    tokio::time::sleep(Duration::from_millis(500)).await;
+                }
+                tokio::time::sleep(Duration::from_millis(200)).await;
+            }
+        }
+        let db_miner = app_database
+            .get_miner_by_pubkey_str(user_pubkey.to_string())
+            .await;
+
+        let miner;
+        match db_miner {
+            Ok(db_miner) => {
+                miner = db_miner;
+            }
+            Err(_) => {
+                error!(target: "server_log", "DB Error: Catch all.");
+                return Err((StatusCode::INTERNAL_SERVER_ERROR, "Internal Server Error"));
+            }
+        }
+
+        if !miner.enabled {
+            return Err((StatusCode::UNAUTHORIZED, "pubkey is not authorized to mine"));
+        }
+        
+
+        info!(target: "server_log", "Client: {addr} connected with pubkey {user_pubkey} on V2.");
+        return Ok(ws.on_upgrade(move |socket| {
+            handle_socket(
+                socket,
+                addr,
+                user_pubkey,
+                miner.id,
+                query_params.worker_name.clone(),
                 ClientVersion::V2,
                 app_state,
                 client_channel,
@@ -264,6 +364,7 @@ async fn handle_socket(
     who: SocketAddr,
     who_pubkey: Pubkey,
     who_miner_id: i32,
+    worker_name: String,
     client_version: ClientVersion,
     rw_app_state: Arc<RwLock<AppState>>,
     client_channel: UnboundedSender<ClientMessage>,
@@ -293,6 +394,8 @@ async fn handle_socket(
             uuid: socket_uuid,
             pubkey: who_pubkey,
             miner_id: who_miner_id,
+            worker_name,
+            start_mining_at: Utc::now(),
             client_version,
             socket: Arc::new(Mutex::new(sender)),
         };
@@ -848,6 +951,60 @@ async fn get_connected_miners(
             .status(StatusCode::OK)
             .body(socks.len().to_string())
             .unwrap();
+    }
+}
+
+#[derive(Serialize)]
+struct ConnectedMinerInfoResponse {
+    total_miners: usize,
+    start_mining_at: Option<String>,
+}
+async fn get_connected_miners_v2(
+    query_params: Query<ConnectedMinersParams>,
+    State(app_state): State<Arc<RwLock<AppState>>>,
+) -> impl IntoResponse {
+    let reader = app_state.read().await;
+    let socks = reader.sockets.clone();
+    drop(reader);
+
+    if let Some(pubkey_str) = &query_params.pubkey {
+        if let Ok(user_pubkey) = Pubkey::from_str(&pubkey_str) {
+            let mut connection_count = 0;
+            let mut oldest_start: Option<DateTime<Utc>> = None;
+
+            for (_addr, client_connection) in socks.iter() {
+                if user_pubkey.eq(&client_connection.pubkey) {
+                    connection_count += 1;
+
+                    match oldest_start {
+                        Some(current_oldest) => {
+                            if client_connection.start_mining_at < current_oldest {
+                                oldest_start = Some(client_connection.start_mining_at);
+                            }
+                        }
+                        None => {
+                            oldest_start = Some(client_connection.start_mining_at);
+                        }
+                    }
+                }
+            }
+
+            let body = ConnectedMinerInfoResponse {
+                total_miners: connection_count,
+                start_mining_at: oldest_start.map(|dt| dt.to_rfc3339()),
+            };
+            
+            return Ok(Json(body));
+        } else {
+            error!(target: "server_log", "Get connected miners with invalid pubkey");
+            return Err("Invalid Pubkey".to_string());
+        }
+    } else {
+        let body = ConnectedMinerInfoResponse {
+            total_miners: socks.len(),
+            start_mining_at: None,
+        };
+        return Ok(Json(body));
     }
 }
 

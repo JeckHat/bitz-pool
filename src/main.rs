@@ -7,10 +7,12 @@ use std::{
     time::Duration
 };
 use axum::{
-    body::Bytes, extract::{
-        ws::{Message, WebSocket},
-    }, http::Method, Extension
+    body::Bytes,
+    extract::ws::{Message, WebSocket},
+    http::Method,
+    Extension
 };
+use chrono::{DateTime, Utc};
 use clap::Parser;
 use drillx::Solution;
 use futures::{stream::SplitSink, SinkExt};
@@ -50,8 +52,6 @@ mod utils;
 const MIN_DIFF: u32 = 12;
 const MIN_HASHPOWER: u64 = 80; // difficulty 12
 const MAX_CALCULATED_HASHPOWER: u64 = 327_680; // difficulty 24
-const DIAMOND_HANDS_DAYS: u64 = 7;
-const NFT_DISTRIBUTION_DAYS: u64 = 7;
 
 pub struct Config {
     password: String,
@@ -99,6 +99,8 @@ struct AppClientConnection {
     uuid: Uuid,
     pubkey: Pubkey,
     miner_id: i32,
+    worker_name: String,
+    start_mining_at: DateTime<Utc>,
     client_version: ClientVersion,
     socket: Arc<Mutex<SplitSink<WebSocket, Message>>>,
 }

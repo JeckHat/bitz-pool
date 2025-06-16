@@ -33,6 +33,8 @@ diesel::table! {
         challenge_id -> Integer,
         amount -> Unsigned<Bigint>,
         difficulty -> Tinyint,
+        #[max_length = 36]
+        worker_name -> Varchar,
         created_at -> Timestamp,
         updated_at -> Timestamp,
         created_at_day -> Nullable<Date>,

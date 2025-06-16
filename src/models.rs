@@ -191,7 +191,7 @@ pub struct Reward {
     pub balance: u64,
 }
 
-#[derive(Debug, Copy, Clone, Deserialize, Insertable, QueryableByName)]
+#[derive(Debug, Clone, Deserialize, Insertable, QueryableByName)]
 #[diesel(table_name = crate::schema::earnings)]
 #[diesel(check_for_backend(diesel::mysql::Mysql))]
 pub struct InsertEarning {
@@ -200,6 +200,7 @@ pub struct InsertEarning {
     pub challenge_id: i32,
     pub amount: u64,
     pub difficulty: i8,
+    pub worker_name: String,
 }
 
 #[derive(Debug, Serialize, Deserialize, Queryable, Selectable, QueryableByName)]
@@ -212,6 +213,7 @@ pub struct Earning {
     pub challenge_id: i32,
     pub amount: u64,
     pub difficulty: i8,
+    pub worker_name: String,
     #[diesel(sql_type = Timestamp)]
     pub created_at: NaiveDateTime,
     #[diesel(sql_type = Timestamp)]

@@ -29,7 +29,7 @@ pub async fn pool_mine_success_system(
 ) {
     loop {
         while let Some(msg) = mine_success_receiver.recv().await {
-            let id = uuid::Uuid::new_v4();
+            let id: uuid::Uuid = uuid::Uuid::new_v4();
             let c = BASE64_STANDARD.encode(msg.challenge);
             info!(target: "server_log", "{} - Processing internal mine success for challenge: {}", id, c);
             {
@@ -40,6 +40,11 @@ pub async fn pool_mine_success_system(
                 let socks = shared_state.sockets.clone();
                 drop(shared_state);
                 info!(target: "server_log", "{} - Got sockets in {}.", id, instant.elapsed().as_millis());
+
+                // let uuid_to_worker: HashMap<Uuid, String> = socks
+                //     .iter()
+                //     .map(|(_addr, conn)| (conn.uuid, conn.worker_name.clone()))
+                //     .collect();
 
                 let mut i_earnings = Vec::new();
                 let mut i_rewards = Vec::new();
@@ -79,30 +84,6 @@ pub async fn pool_mine_success_system(
                         .saturating_mul(total_rewards as u128)
                         .saturating_div(1_000_000)
                         as u64;
-
-                    let new_earning = InsertEarning {
-                        miner_id: msg_submission.miner_id,
-                        pool_id: app_config.pool_id,
-                        challenge_id: msg.challenge_id,
-                        amount: earned_rewards,
-                        difficulty: msg_submission.supplied_diff as i8,
-                    };
-
-                    let new_submission = InsertSubmission {
-                        miner_id: msg_submission.miner_id,
-                        challenge_id: msg.challenge_id,
-                        nonce: msg_submission.supplied_nonce,
-                        difficulty: msg_submission.supplied_diff as i8,
-                    };
-
-                    let new_reward = UpdateReward {
-                        miner_id: msg_submission.miner_id,
-                        balance: earned_rewards,
-                    };
-
-                    i_earnings.push(new_earning);
-                    i_rewards.push(new_reward);
-                    i_submissions.push(new_submission);
                     //let _ = app_database.add_new_earning(new_earning).await.unwrap();
 
                     let earned_rewards_dec = (earned_rewards as f64).div(decimals);
@@ -116,6 +97,30 @@ pub async fn pool_mine_success_system(
                     for (_addr, client_connection) in socks.iter() {
                         if client_connection.uuid.eq(miner_uuid) {
                             let socket_sender = client_connection.socket.clone();
+                            let new_earning = InsertEarning {
+                                miner_id: msg_submission.miner_id,
+                                pool_id: app_config.pool_id,
+                                challenge_id: msg.challenge_id,
+                                amount: earned_rewards,
+                                difficulty: msg_submission.supplied_diff as i8,
+                                worker_name: client_connection.worker_name.clone()
+                            };
+        
+                            let new_submission = InsertSubmission {
+                                miner_id: msg_submission.miner_id,
+                                challenge_id: msg.challenge_id,
+                                nonce: msg_submission.supplied_nonce,
+                                difficulty: msg_submission.supplied_diff as i8,
+                            };
+        
+                            let new_reward = UpdateReward {
+                                miner_id: msg_submission.miner_id,
+                                balance: earned_rewards,
+                            };
+        
+                            i_earnings.push(new_earning);
+                            i_rewards.push(new_reward);
+                            i_submissions.push(new_submission);
 
                             match client_connection.client_version {
                                 ClientVersion::V2 => {
